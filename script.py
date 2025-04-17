@@ -130,4 +130,5 @@ with open(fileName,'a',encoding='utf-8') as f:
             threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join([threat[0] for threat in threatList if threat])}</code> <i>({', '.join(threatList)})</i>')
         content = f"<div id=\"{name.lower().replace(' ','-')}\"><h2>ENTITY {entityNum} &mdash; {name.upper()}{f'<br>Preferred Name: <code>{prefName}</code>' if prefName else ''}<br><sup><i>{proName}</i></sup></h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
         fullFile += content
+    fullFile += "</body>"
     f.write(indentFormat(fullFile))
