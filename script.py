@@ -1,6 +1,8 @@
 import json
 import os
 import re
+def repeat(string,repetitions):
+    return string * repetitions
 def listStat(label, stat):
     if stat in ['',None]:
         return ''
@@ -31,7 +33,7 @@ def format(text,mode=''):
 with open(fileName,'w') as f:
     f.write('')
 with open(fileName,'a',encoding='utf-8') as f:
-    fullFile ='<head><title>EEIF-DX-044-V</title></head><body style="background-color:#fff;"><code><hr style="height: 1em;color:black;background-color: black;">UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr style="height: 1em;color:black;background-color: black;"><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute ███-███. All field agents must refer to this file when encountering subjects listed herein.<hr style="height: 1em;color:black;background-color: black;"></code><h3>Threat Level: [Ethics]-[Order]</h3><ul><li>Ethics: B (Benevolent), N (Neutral), M (Malevolent)</li><li>Order: S (Structured), U (Unpredictable), C (Chaotic)</li></ul>'
+    fullFile ='<head><title>EEIF-DX-044-V</title></head><style>body{background-color:#fff;font-family:"Times New Roman"}hr{height:1em;color:black;background-color:black;}</style><body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute ███-███. All field agents must refer to this file when encountering subjects listed herein.<hr></code><h3>Threat Level: [Ethics]-[Order]</h3><ul><li>Ethics: B (Benevolent), N (Neutral), M (Malevolent)</li><li>Order: S (Structured), U (Unpredictable), C (Chaotic)</li></ul>'
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -128,7 +130,7 @@ with open(fileName,'a',encoding='utf-8') as f:
         if order: threatList.append(order)
         if ethics or order:
             threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join([threat[0] for threat in threatList if threat])}</code> <i>({', '.join(threatList)})</i>')
-        content = f"<div id=\"{name.lower().replace(' ','-')}\"><h2>ENTITY {entityNum} &mdash; {name.upper()}{f'<br>Preferred Name: <code>{prefName}</code>' if prefName else ''}<br><sup><i>{proName}</i></sup></h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
+        content = f"<div id=\"{name.lower().replace(' ','-')}\"><h2>ENTITY {entityNum} &mdash; {name.upper()}{f'<br>{'&nbsp;' * 4}Preferred Name: <code>{prefName}</code>' if prefName else ''}<br><sup><i>{proName}</i></sup></h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
         fullFile += content
     fullFile += "</body>"
     f.write(indentFormat(fullFile))
