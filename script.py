@@ -38,21 +38,27 @@ with open(fileName,'a',encoding='utf-8') as f:
             entityNum = '00' + entityNum
         elif len(entityNum) == 2:
             entityNum = '0' + entityNum
+        if len(item.get("name")[-1]) == 1:
+            prefName = item.get("name")[-1][0]
+        else:
+            prefName = ''
         nameList = []
         if item.get("name")[0][0] == '':
             continue
         nameList.append(item.get("name")[0][0])
+        nameList.append(item.get("name")[1][0])
         if len(item.get("name")) == 3:
-            nameList.append(item.get("name")[1][0])
-        nameList.append(item.get("name")[-1][0])
+            nameList.append(item.get("name")[2][0])
+        if prefName in nameList:
+            nameList.remove(prefName)
         name = ' '.join(nameList)
         proNameList = []
         if item.get("name")[0][1] == '':
             continue
         proNameList.append(item.get("name")[0][1])
-        if len(item.get("name")) == 3:
-            proNameList.append(item.get("name")[1][1])
-        proNameList.append(item.get("name")[-1][1])
+        proNameList.append(item.get("name")[1][1])
+        if len(item.get("name")) == 3 and len(item.get("name")[-1]) > 1:
+            proNameList.append(item.get("name")[2][1])
         proName = '&mdash;'.join(proNameList)
         description = item.get("description")
         clearance = [
@@ -94,12 +100,8 @@ with open(fileName,'a',encoding='utf-8') as f:
             languageList = item.get("languages")
         except:
             pass
-        for i in range(len(languageList)):
-            if i == 0:
-                languageList[i] = f'<i>{languageList[i]}</i>'
-            if languageList[i] != languageList[-1]:
-                languageList[i] = f'{languageList[i]}, '
-            languages += languageList[i]
+        languageList[0] = f'<i>{languageList[0]}</i>'
+        languages = ', '.join(languageList)
         threatLevel = ''
         eDict = {
             'good': 'Benevolent',
@@ -121,8 +123,11 @@ with open(fileName,'a',encoding='utf-8') as f:
             order = oDict[order]
         except:
             pass
-        threatList = [ethics,order]
-        threatLevel = f'<code>{'&mdash;'.join([threat[0] for threat in threatList if threat])}</code>'
-        content = f"<div id=\"{name.lower().replace(' ','-')}\"><h2>ENTITY {entityNum} &mdash; {name.upper()}<br><sup><i>{proName}</i></sup></h2>{listStat('Threat Level',f'{threatLevel} <i>({ethics}, {order})</i>')}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
+        threatList = []
+        if ethics: threatList.append(ethics)
+        if order: threatList.append(order)
+        if ethics or order:
+            threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join([threat[0] for threat in threatList if threat])}</code> <i>({', '.join(threatList)})</i>')
+        content = f"<div id=\"{name.lower().replace(' ','-')}\"><h2>ENTITY {entityNum} &mdash; {name.upper()}{f'<br>Preferred Name: <code>{prefName}</code>' if prefName else ''}<br><sup><i>{proName}</i></sup></h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
         fullFile += content
     f.write(indentFormat(fullFile))

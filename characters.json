@@ -17,6 +17,9 @@
             [
                 "Căpățână",
                 "[kuh-puh-TSUU-nuh]"
+            ],
+            [
+                "Ani"
             ]
         ],
         "pob": [
@@ -52,6 +55,9 @@
             [
                 "Văduva",
                 "[vuh-DOO-vah]"
+            ],
+            [
+                "Aurora"
             ]
         ],
         "pob": [
@@ -86,6 +92,9 @@
             [
                 "Vlachou",
                 "[vla-KOO]"
+            ],
+            [
+                "Căt"
             ]
         ],
         "pob": [
@@ -118,6 +127,9 @@
             [
                 "Rothschild",
                 "[ROTE-shild]"
+            ],
+            [
+                "Charlie"
             ]
         ],
         "pob": [
@@ -158,6 +170,9 @@
             [
                 "Róin",
                 "[ROH-in]"
+            ],
+            [
+                "Ciara"
             ]
         ],
         "pob": [
@@ -193,6 +208,9 @@
             [
                 "Belnades",
                 "[bell-NA-dhess]"
+            ],
+            [
+                "Gabi"
             ]
         ],
         "pob": [
@@ -228,6 +246,9 @@
             [
                 "Rhys",
                 "[REES]"
+            ],
+            [
+                "Gwen"
             ]
         ],
         "pob": [
@@ -263,6 +284,9 @@
             [
                 "Tuttle",
                 "[TUH-tuul]"
+            ],
+            [
+                "Jo"
             ]
         ],
         "pob": [
@@ -298,6 +322,9 @@
             [
                 "Herlings",
                 "[HER-lingz]"
+            ],
+            [
+                "Lars"
             ]
         ],
         "pob": [
@@ -330,6 +357,9 @@
             [
                 "LeClair",
                 "[luh-KLAYR]"
+            ],
+            [
+                "Lou"
             ]
         ],
         "pob": [
@@ -363,6 +393,9 @@
             [
                 "Matei",
                 "[mah-TAY]"
+            ],
+            [
+                "Luca"
             ]
         ],
         "pob": [
@@ -402,6 +435,9 @@
             [
                 "Libo",
                 "[LEE-boh]"
+            ],
+            [
+                "Iulia"
             ]
         ],
         "pob": [
@@ -434,6 +470,9 @@
             [
                 "Cross",
                 "[KROS]"
+            ],
+            [
+                "Mari"
             ]
         ],
         "pob": [
@@ -468,6 +507,9 @@
             [
                 "Dunn",
                 "[DUN]"
+            ],
+            [
+                "Mel"
             ]
         ],
         "pob": [
@@ -501,6 +543,9 @@
             [
                 "Falk",
                 "[FALK]"
+            ],
+            [
+                "Mia"
             ]
         ],
         "pob": [
@@ -534,6 +579,9 @@
             [
                 "Jäger",
                 "[YEH-ger]"
+            ],
+            [
+                "Mischa"
             ]
         ],
         "pob": [
@@ -566,6 +614,9 @@
             [
                 "Sharpe",
                 "[SHARP]"
+            ],
+            [
+                "Sadie"
             ]
         ],
         "pob": [
@@ -601,6 +652,9 @@
             [
                 "Pryor",
                 "[pr-EYE-er]"
+            ],
+            [
+                "Sam"
             ]
         ],
         "pob": [
@@ -634,6 +688,9 @@
             [
                 "Briggs",
                 "[BRIGZ]"
+            ],
+            [
+                "Sarah"
             ]
         ],
         "pob": [
@@ -665,6 +722,9 @@
             [
                 "Sinclair",
                 "[sin-KLAYR]"
+            ],
+            [
+                "Scarlet"
             ]
         ],
         "pob": [
@@ -702,6 +762,9 @@
             [
                 "Medvedeva",
                 "[med-vuh-DEH-va]"
+            ],
+            [
+                "Veronica"
             ]
         ],
         "pob": [
@@ -736,6 +799,9 @@
             [
                 "Falk",
                 "[FALK]"
+            ],
+            [
+                "Viv"
             ]
         ],
         "pob": [
@@ -770,6 +836,9 @@
                 "Argyri",
                 "[ar-GHEE-ree]",
                 "Αργύρη"
+            ],
+            [
+                "Kassie"
             ]
         ],
         "pob": [
@@ -804,6 +873,9 @@
                 "Abe",
                 "[AH-bay]",
                 "安倍"
+            ],
+            [
+                "Kim"
             ]
         ],
         "profession": "Student",
@@ -836,6 +908,9 @@
                 "Kontou",
                 "[koh-DOO]",
                 "Κοντού"
+            ],
+            [
+                "Kori"
             ]
         ],
         "pob": [
@@ -871,6 +946,9 @@
                 "Metaxa",
                 "[may-ta-KSA]",
                 "Μεταξά"
+            ],
+            [
+                "Maria"
             ]
         ],
         "pob": [
@@ -905,6 +983,9 @@
                 "Samara",
                 "[sah-mah-RAH]",
                 "Σαμαρά"
+            ],
+            [
+                "Sophia"
             ]
         ],
         "pob": [
@@ -936,6 +1017,9 @@
             [
                 "Baasch",
                 "[BOSH]"
+            ],
+            [
+                "Rory"
             ]
         ],
         "pob": [
@@ -951,48 +1035,6 @@
         "tags": [
             "human",
             "sfw"
-        ]
-    },
-    {
-        "alignment": {
-            "empathy": "",
-            "morals": ""
-        },
-        "description": "",
-        "languages": [
-            "",
-            ""
-        ],
-        "name": [
-            [
-                "",
-                "",
-                ""
-            ],
-            [
-                "",
-                "",
-                ""
-            ],
-            [
-                "",
-                "",
-                ""
-            ]
-        ],
-        "pob": [
-            "",
-            "",
-            ""
-        ],
-        "profession": "",
-        "sex": "",
-        "species": [
-            "",
-            ""
-        ],
-        "tags": [
-            ""
         ]
     }
 ]
