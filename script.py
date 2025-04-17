@@ -38,25 +38,25 @@ with open(fileName,'a',encoding='utf-8') as f:
             entityNum = '00' + entityNum
         elif len(entityNum) == 2:
             entityNum = '0' + entityNum
-        if len(item.get("name")[-1]) == 1:
-            prefName = item.get("name")[-1][0]
-        else:
-            prefName = ''
+        prefName = item.get("name")[-1][0]
         nameList = []
         if item.get("name")[0][0] == '':
             continue
-        nameList.append(item.get("name")[0][0])
-        nameList.append(item.get("name")[1][0])
-        if len(item.get("name")) == 3:
-            nameList.append(item.get("name")[2][0])
-        if prefName in nameList:
-            nameList.remove(prefName)
+        for i in range(len(item.get("name"))):
+            try:
+                nameList.append(item.get("name")[i][0])
+            except:
+                pass
+        nameList.pop(-1)
         name = ' '.join(nameList)
         proNameList = []
         if item.get("name")[0][1] == '':
             continue
-        proNameList.append(item.get("name")[0][1])
-        proNameList.append(item.get("name")[1][1])
+        for i in range(len(item.get("name"))-1):
+            try:
+                proNameList.append(item.get("name")[i][1])
+            except:
+                pass
         if len(item.get("name")) == 3 and len(item.get("name")[-1]) > 1:
             proNameList.append(item.get("name")[2][1])
         proName = '&mdash;'.join(proNameList)
