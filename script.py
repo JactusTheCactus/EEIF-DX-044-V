@@ -15,7 +15,7 @@ def indentFormat(text):
     output6 = re.sub(r'(</h6>)(.*?)(<h6>|</div>)', r'\1<ul>\2</ul>\3', output5)
     output7 = re.sub(r'(</?ul>)\1+', r'\1', output6)
     return output7
-fileName = 'EEIF-DX-044-V.html'
+fileName = 'index.html'
 if not os.path.exists(fileName):
     with open(fileName,'x') as f:
         f.write('')
