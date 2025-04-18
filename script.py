@@ -11,6 +11,15 @@ def repeat(string:str='',repetitions:int=1)->str:
     except:
         return 'Invalid Integer'
     return string * repetitions
+def redact(text,length=None):
+    if text == '':
+        text = repeat('-',length)
+    if '<span class="redacted">' in text:
+        pass
+    if length:
+        text = text[:length]
+    text = f'<span class="redacted">{text}</span>'
+    return text
 indent = repeat('&nbsp;',4)
 def listStat(label, stat):
     if stat in ['',None]:
@@ -28,7 +37,7 @@ def indentFormat(text):
     return output7
 fileName = 'index.html'
 if not os.path.exists(fileName):
-    with open(fileName,'x') as f:
+    with open(fileName,'') as f:
         f.write('')
 with open('characters.json','r',encoding='utf-8') as f:
     file_ = f.read()
@@ -42,7 +51,7 @@ def format(text,mode=''):
 with open(fileName,'w') as f:
     f.write('')
 with open(fileName,'a',encoding='utf-8') as f:
-    fullFile ='<head><title>EEIF-DX-044-V</title></head><style>body{background-color:#fff;font-family:"Times New Roman"}hr{height:1em;color:black;background-color:black;}</style><body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute ███-███. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+    fullFile ='<head><title>EEIF-DX-044-V</title></head><style>body{background-color:#fff;font-family:"Times New Roman"}hr{height:1em;color:black;background-color:black;}.redacted{background-color:#000;color:#000;padding:0 0.2em;}</style><body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute ███-███. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -76,11 +85,14 @@ with open(fileName,'a',encoding='utf-8') as f:
             'TOP SECRET',
             'SECRET',
             'CONFIDENTIAL',
-            'USAP',
-            'ACCM'
+            'Unacknowledged Special Access Program',
+            'Alternative or Compensatory Control Measures'
         ]
         if description == None:
-            description = f'Further Information About <b>{name}</b> Requires Higher Clearance Than <code>{clearance[2]}</code> To View.'
+            clearanceLevel = item.get("alignment")["risk"]
+            if type(clearanceLevel) is str:
+                clearanceLevel = 0
+            description = f'Further Information About <b>{name}</b> Requires Higher Clearance Than <code>{clearance[clearanceLevel]}</code> To View.'
         description = format(description)
         pobList = []
         getPob = item.get("pob")
@@ -126,20 +138,38 @@ with open(fileName,'a',encoding='utf-8') as f:
         }
         try:
             ethics = item.get("alignment")["empathy"]
-            ethics = eDict[ethics]
+            if ethics == '':
+                ethics = redact(ethics,10)
+            else:
+                ethics = eDict[ethics]
         except:
             pass
         try:
             order = item.get("alignment")["morals"]
-            order = oDict[order]
+            if order == '':
+                order = redact(order,10)
+            else:
+                order = oDict[order]
         except:
             pass
-        threatList = []
-        if ethics: threatList.append(ethics)
-        if order: threatList.append(order)
-        if ethics or order:
-            threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join([threat[0] for threat in threatList if threat])}</code> <i>({', '.join(threatList)})</i>')
-        content = f"<div id=\"{name.lower().replace(' ','-')}\"><h2>ENTITY {entityNum} &mdash; {name.upper()}{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}<br><sup><i>{indent+proName}</i></sup></h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
+        if item.get("alignment")["risk"] == '':
+            risk = redact(risk)
+        else:
+            risk = str(item.get("alignment")["risk"])
+        threatList = [x for x in (ethics, order, risk) if x]
+        threatListDesc = [x for x in (ethics, order) if x]
+        threatListShort = []
+        for threat in threatList:
+            if threat:
+                if threat[0] != '<':
+                    threatListShort.append(threat[0])
+                elif threat[0] == '<':
+                    threat = redact(threat[23])
+                    threatListShort.append(threat)
+                    print(threat)
+        if ethics or order or risk:
+            threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join(threatListShort)}</code> <i>{f'({', '.join(threatListDesc)})' if ethics or order else ''}</i>')
+        content = f"<div id=\"{name.lower().replace(' ','-')}\" style=\"page-break-before: always;\"><h2>ENTITY {entityNum} &mdash; {name.upper()}<br><sup><i>{indent+proName}</i></sup>{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}</h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
         fullFile += content
     fullFile += "</body>"
     f.write(indentFormat(fullFile))
