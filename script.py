@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 import re
 import pdfkit
 fileName = 'index'
@@ -48,6 +49,37 @@ styling = re.sub(r'( ){2,}',r'\1',styling)
 styling = re.sub(r' ?(;) ?',r'\1',styling)
 styling = re.sub(r' ?(\{|\}|:|;|,) ?',r'\1',styling)
 styling = re.sub(r'(<.*>) *(.*) *(</.*>)',r'\1\2\3',styling)
+charFiles = []
+def charFormat(file):
+    file = file.replace('CLASSIFIED','')
+    file = file.replace('<div class="watermark"></div>','')
+    file = re.sub(r'<div id=".*" style=".*?">(.*)</div>',r'\1',file)
+    file = re.sub(r'<div id=".*">(.*)</div>',r'\1',file)
+    file = re.sub(r'ENTITY \d\d\d &mdash; ',r'',file)
+    file = re.sub(r'<h2>(.*?)</h2>',r'# \1\n\n',file)
+    file = re.sub(r'<h3>(.*?)</h3>',r'## \1\n\n',file)
+    file = re.sub(r'<h4>(.*?)</h4>',r'### \1\n\n',file)
+    file = re.sub(r'<h5>(.*?)</h5>',r'#### \1\n\n',file)
+    file = re.sub(r'<h6>(.*?)</h6>',r'##### \1\n\n',file)
+    file = re.sub(r'<code>(.*?)</code>',r'\1',file)
+    file = re.sub(r'<b>(.*?)</b>',r'**\1**',file)
+    file = re.sub(r'<i>(.*?)</i>',r'*\1*',file)
+    file = re.sub(r'<p>(.*?)</p>',r'\1\n\n',file)
+    file = re.sub(r'&nbsp;',r'',file)
+    file = re.sub(r'<sup>(.*?)</sup>',r'\1',file)
+    return file
+def clearDir(directory):
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
+    os.makedirs(directory)
+def mdFormat(html):
+    html = re.sub(r'<style>.*</style>',r'',html)
+    html = re.sub(r'<!DOCTYPE html>',r'',html)
+    html = re.sub(r'<title>.*</title>',r'',html)
+    html = re.sub(r'<head></head>',r'',html)
+    html = re.sub(r'<div class="watermark">CLASSIFIED</div>',r'',html)
+    html = re.sub(r'<span class="redacted">(.*?)</span>',lambda m:'█'*len(m.group(1)),html)
+    return html
 def getFileName(name, type):
     return name + '.' + type
 def repeat(string:str='',repetitions:int=1)->str:
@@ -100,6 +132,7 @@ with open(f'{fileName}.html','w') as f:
     f.write('')
 with open(f'{fileName}.html','a',encoding='utf-8') as f:
     fullFile = f'<!DOCTYPE html><head><title>{docName}</title></head>{styling}<body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: {docName}<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+    index = 1
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -225,6 +258,22 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
             threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join(threatListShort)}</code> <i>{f'({', '.join(threatListDesc)})' if ethics or order else ''}</i>')
         content = f"<div class=\"watermark\">CLASSIFIED</div><div id=\"{re.sub(r'"',r'',name.lower().replace(' ','-'))}\" style=\"page-break-before: always;\"><h2>ENTITY {entityNum} &mdash; {name.upper()}<br><sup><i>{indent+proName}</i></sup>{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}</h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
         fullFile += content
+        charDir = 'obsidian/EEIF-DX-044-V/characters' 
+        clearDir(charDir)
+        name = re.sub(r"\"",r"'",name)
+        name = re.sub(r" '.*' ",r" ",name)
+        name = re.sub(r" ",r"-",name)
+        name = name.lower()
+        charFile = getFileName(f'{charDir}/{name}','md')
+        charFiles.append([charFile,content])
+        with open(charFile,'w',encoding='utf-8') as char:
+            char.write(mdFormat(content))
+        charNameList = charFile[34:-3].replace('-',' ').split()
+        for i in range(len(charNameList)):
+            charNameList[i] = charNameList[i].capitalize()
+        charName = ' '.join(charNameList)
+        print(f'{index}: {charName}')
+        index += 1
     fullFile += "</body>"
     f.write(indentFormat(fullFile))
 config = pdfkit.configuration(wkhtmltopdf=r'D:\Downoads\wkhtmltopdf\bin\wkhtmltopdf.exe')
@@ -237,18 +286,9 @@ pdfkit.from_file(
         'enable-local-file-access': ''
     }
 )
-def mdFormat(html):
-    html = re.sub(r'<style>.*</style>',r'',html)
-    html = re.sub(r'<!DOCTYPE html>',r'',html)
-    html = re.sub(r'<title>.*</title>',r'',html)
-    html = re.sub(r'<head></head>',r'',html)
-    html = re.sub(r'<div class="watermark">CLASSIFIED</div>',r'',html)
-    html = re.sub(r'<span class="redacted">(.*?)</span>',lambda m:'█'*len(m.group(1)),html)
-    html = re.sub(r'',r'',html)
-    html = re.sub(r'',r'',html)
-    html = re.sub(r'',r'',html)
-    #html = re.sub(r'',r'',html)
-    return html
+for i in range(len(charFiles)):
+    with open(charFiles[i][0],'w',encoding='utf-8') as f:
+        f.write(charFormat(charFiles[i][1]))
 with open(getFileName(fileName,'html'),'r',encoding='utf-8') as f:
     htmlFile = f.read()
 with open(getFileName('README','md'),'w',encoding='utf-8') as f:

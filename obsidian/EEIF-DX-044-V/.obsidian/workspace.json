@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b8b5cdd9401e4096",
+        "id": "3e4d01072b8a0456",
         "type": "tabs",
         "children": [
           {
-            "id": "d722d77cf7f4d822",
+            "id": "b3f350d1b85e97b6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Chats/New Chat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for New Chat"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chats/New Chat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from New Chat"
             }
           },
           {
@@ -136,20 +138,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b79e81bc1e3d7672",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -159,11 +171,46 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "smart-second-brain:Open S2B Chat": false,
+      "smart-composer:Open smart composer": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "privacy-glasses:Hide all": false,
+      "privacy-glasses:Reveal non-private": false,
+      "privacy-glasses:Reveal headlines only": false,
+      "privacy-glasses:Reveal all": false
     }
   },
-  "active": "6110616f41e9a7e7",
+  "active": "b3f350d1b85e97b6",
   "lastOpenFiles": [
-    "Welcome.md"
+    "characters/vivian-falk.md",
+    "characters/veronica-medvedeva.md",
+    "characters/sophia-samara.md",
+    "characters/scarlet-sinclair.md",
+    "characters/sarah-briggs.md",
+    "characters/samantha-pryor.md",
+    "characters/sadie-sharpe.md",
+    "characters/rory-baasch.md",
+    "characters/mischa-jäger.md",
+    "characters/mia-falk.md",
+    "characters/melania-dunn.md",
+    "characters/mariana-cross.md",
+    "characters/maria-metaxa.md",
+    "characters/lucia-iulia-libo.md",
+    "characters/luca-matei.md",
+    "characters/lou-leclair.md",
+    "characters/lars-herlings.md",
+    "characters/koralia-kontou.md",
+    "characters/kimiko-abe.md",
+    "characters/kassandra-argyri.md",
+    "characters/joanna-tuttle.md",
+    "characters/gwendolyn-rhys.md",
+    "characters/gabriella-belnades.md",
+    "characters/ciara-bán-róin.md",
+    "characters/charlize-rothschild.md",
+    "characters/cătălina-vlachou.md",
+    "characters",
+    "Chats"
   ]
 }
