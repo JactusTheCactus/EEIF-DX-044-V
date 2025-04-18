@@ -45,6 +45,7 @@ styling = re.sub(r'\n',r'',styling)
 styling = re.sub(r'( ){2,}',r'\1',styling)
 styling = re.sub(r' ?(;) ?',r'\1',styling)
 styling = re.sub(r' ?(\{|\}|:|;|,) ?',r'\1',styling)
+styling = re.sub(r'(<.*>) *(.*) *(</.*>)',r'\1\2\3',styling)
 def getFileName(name, type):
     return name + '.' + type
 def repeat(string:str='',repetitions:int=1)->str:
