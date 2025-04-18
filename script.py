@@ -2,6 +2,8 @@ import json
 import os
 import re
 import pdfkit
+fileName = 'index'
+docName = 'EEIF-DX-044-V'
 styling = '''<style>
     body {
         background-color: #fff;
@@ -82,7 +84,6 @@ def indentFormat(text):
     output6 = re.sub(r'(</h6>)(.*?)(<h6>|</div>)', r'\1<ul>\2</ul>\3', output5)
     output7 = re.sub(r'(</?ul>)\1+', r'\1', output6)
     return output7
-fileName = 'index'
 if not os.path.exists(f'{fileName}.html'):
     with open(f'{fileName}.html','') as f:
         f.write('')
@@ -98,7 +99,7 @@ def format(text,mode=''):
 with open(f'{fileName}.html','w') as f:
     f.write('')
 with open(f'{fileName}.html','a',encoding='utf-8') as f:
-    fullFile = f'<!DOCTYPE html><head><title>EEIF-DX-044-V</title></head>{styling}<body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+    fullFile = f'<!DOCTYPE html><head><title>{docName}</title></head>{styling}<body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: {docName}<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -229,7 +230,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
 config = pdfkit.configuration(wkhtmltopdf=r'D:\Downoads\wkhtmltopdf\bin\wkhtmltopdf.exe')
 pdfkit.from_file(
     getFileName(fileName, 'html'),
-    getFileName(fileName, 'pdf'),
+    getFileName(docName, 'pdf'),
     configuration=config,
     options={
         'encoding': 'UTF-8',
