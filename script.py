@@ -201,11 +201,11 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         except:
             pass
         risk_dict = {
-            0: "Minimum Risk &mdash; Passive or Cooperative",
-            1: "Low Risk &mdash; Requires Monitoring",
+            4: "Minimum Risk &mdash; Passive or Cooperative",
+            3: "Low Risk &mdash; Requires Monitoring",
             2: "Moderate Risk &mdash; Field Agent Required",
-            3: "High Risk &mdash; Armed Containment Authorized",
-            4: "Extreme Risk &mdash; Termination Protocol Approved"
+            1: "High Risk &mdash; Armed Containment Authorized",
+            0: "Extreme Risk &mdash; Termination Protocol Approved"
         }
         if item.get("alignment")["risk"] == '':
             risk = redact(risk)
