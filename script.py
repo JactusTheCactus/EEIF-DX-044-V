@@ -272,7 +272,6 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         for i in range(len(charNameList)):
             charNameList[i] = charNameList[i].capitalize()
         charName = ' '.join(charNameList)
-        print(f'{index}: {charName}')
         index += 1
     fullFile += "</body>"
     f.write(indentFormat(fullFile))
