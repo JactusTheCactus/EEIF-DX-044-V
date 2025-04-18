@@ -24,8 +24,11 @@ styling = '''<style>
         left: 50%;
         font-size: 6em;
         color: rgba(200, 0, 0, 0.1);
-        transform-origin: center center;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        -moz-transform: translate(-50%, -50%) rotate(-45deg);
+        -ms-transform: translate(-50%, -50%) rotate(-45deg);
         -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        transform-origin: center center;
         z-index: -1;
     }
     @media print {
