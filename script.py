@@ -1,6 +1,32 @@
 import json
 import os
 import re
+styling = '''body{
+    background-color:#fff;
+    font-family:"Times New Roman"
+}
+hr{
+    height:1em;
+    color:black;
+    background-color:black;
+}
+.redacted{
+    background-color:#000;
+    color:#000;
+    padding:0 0.2em;
+}
+@media print{
+    body{
+        margin:0.75in;
+    }
+    h2{
+        page-break-after:avoid;
+    }
+}'''
+styling = re.sub(r'\n',r'',styling)
+styling = re.sub(r'( ){2,}',r'\1',styling)
+styling = re.sub(r' ?(;) ?',r'\1',styling)
+styling = re.sub(r' ?(\{|\}) ?',r'\1',styling)
 def repeat(string:str='',repetitions:int=1)->str:
     try:
         string
@@ -51,7 +77,7 @@ def format(text,mode=''):
 with open(fileName,'w') as f:
     f.write('')
 with open(fileName,'a',encoding='utf-8') as f:
-    fullFile ='<head><title>EEIF-DX-044-V</title></head><style>body{background-color:#fff;font-family:"Times New Roman"}hr{height:1em;color:black;background-color:black;}.redacted{background-color:#000;color:#000;padding:0 0.2em;}</style><body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute ███-███. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+    fullFile = f'<head><title>EEIF-DX-044-V</title></head><style>{styling}</style><body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -166,7 +192,6 @@ with open(fileName,'a',encoding='utf-8') as f:
                 elif threat[0] == '<':
                     threat = redact(threat[23])
                     threatListShort.append(threat)
-                    print(threat)
         if ethics or order or risk:
             threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join(threatListShort)}</code> <i>{f'({', '.join(threatListDesc)})' if ethics or order else ''}</i>')
         content = f"<div id=\"{name.lower().replace(' ','-')}\" style=\"page-break-before: always;\"><h2>ENTITY {entityNum} &mdash; {name.upper()}<br><sup><i>{indent+proName}</i></sup>{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}</h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
