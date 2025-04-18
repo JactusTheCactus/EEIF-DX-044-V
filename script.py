@@ -1,32 +1,49 @@
 import json
 import os
 import re
-styling = '''body{
-    background-color:#fff;
-    font-family:"Times New Roman"
-}
-hr{
-    height:1em;
-    color:black;
-    background-color:black;
-}
-.redacted{
-    background-color:#000;
-    color:#000;
-    padding:0 0.2em;
-}
-@media print{
-    body{
-        margin:0.75in;
+import pdfkit
+styling = '''<style>
+    body {
+        background-color: #fff;
+        font-family: "Times New Roman"
     }
-    h2{
-        page-break-after:avoid;
+    hr {
+        height: 1em;
+        color: #000;
+        background-color: #000;
     }
-}'''
+    .redacted {
+        background-color: #000;
+        color: #000;
+        padding: 0 0.2em;
+    }
+    .watermark {
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        font-size: 6em;
+        color: rgba(200, 0, 0, 0.1);
+        transform-origin: center center;
+        -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        z-index: -1;
+    }
+    @media print {
+        body {
+            margin: 0.75in;
+        }
+        h2 {
+            page-break-after: avoid;
+        }
+    }
+</style>'''
+styling = re.sub(r'/\*(.*)\*/',r'',styling)
 styling = re.sub(r'\n',r'',styling)
 styling = re.sub(r'( ){2,}',r'\1',styling)
 styling = re.sub(r' ?(;) ?',r'\1',styling)
-styling = re.sub(r' ?(\{|\}) ?',r'\1',styling)
+styling = re.sub(r' ?(\{|\}|:|;|,) ?',r'\1',styling)
+def getFileName(name, type):
+    return name + '.' + type
 def repeat(string:str='',repetitions:int=1)->str:
     try:
         string
@@ -61,9 +78,9 @@ def indentFormat(text):
     output6 = re.sub(r'(</h6>)(.*?)(<h6>|</div>)', r'\1<ul>\2</ul>\3', output5)
     output7 = re.sub(r'(</?ul>)\1+', r'\1', output6)
     return output7
-fileName = 'index.html'
-if not os.path.exists(fileName):
-    with open(fileName,'') as f:
+fileName = 'index'
+if not os.path.exists(f'{fileName}.html'):
+    with open(f'{fileName}.html','') as f:
         f.write('')
 with open('characters.json','r',encoding='utf-8') as f:
     file_ = f.read()
@@ -74,10 +91,10 @@ def format(text,mode=''):
     if mode == 'one-line':
         text = text.replace('<br>','')
     return text
-with open(fileName,'w') as f:
+with open(f'{fileName}.html','w') as f:
     f.write('')
-with open(fileName,'a',encoding='utf-8') as f:
-    fullFile = f'<head><title>EEIF-DX-044-V</title></head><style>{styling}</style><body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+with open(f'{fileName}.html','a',encoding='utf-8') as f:
+    fullFile = f'<!DOCTYPE html><head><title>EEIF-DX-044-V</title></head>{styling}<body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: EEIF-DX-044-V<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -178,12 +195,19 @@ with open(fileName,'a',encoding='utf-8') as f:
                 order = oDict[order]
         except:
             pass
+        risk_dict = {
+            0: "Minimum Risk &mdash; Passive or Cooperative",
+            1: "Low Risk &mdash; Requires Monitoring",
+            2: "Moderate Risk &mdash; Field Agent Required",
+            3: "High Risk &mdash; Armed Containment Authorized",
+            4: "Extreme Risk &mdash; Termination Protocol Approved"
+        }
         if item.get("alignment")["risk"] == '':
             risk = redact(risk)
         else:
             risk = str(item.get("alignment")["risk"])
         threatList = [x for x in (ethics, order, risk) if x]
-        threatListDesc = [x for x in (ethics, order) if x]
+        threatListDesc = [x for x in (ethics, order, risk_dict.get(item.get("alignment")["risk"], redact('CLASSIFIED'))) if x]
         threatListShort = []
         for threat in threatList:
             if threat:
@@ -194,7 +218,17 @@ with open(fileName,'a',encoding='utf-8') as f:
                     threatListShort.append(threat)
         if ethics or order or risk:
             threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join(threatListShort)}</code> <i>{f'({', '.join(threatListDesc)})' if ethics or order else ''}</i>')
-        content = f"<div id=\"{name.lower().replace(' ','-')}\" style=\"page-break-before: always;\"><h2>ENTITY {entityNum} &mdash; {name.upper()}<br><sup><i>{indent+proName}</i></sup>{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}</h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
+        content = f"<div class=\"watermark\">CLASSIFIED</div><div id=\"{re.sub(r'"',r'',name.lower().replace(' ','-'))}\" style=\"page-break-before: always;\"><h2>ENTITY {entityNum} &mdash; {name.upper()}<br><sup><i>{indent+proName}</i></sup>{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}</h2>{threatLevel}{listStat('Species',species)}{listStat('Sex',sex)}{listStat('Profession',profession)}{listStat('Place of Birth',pob)}{listStat('Spoken Languages',languages)}<div id=\"description\">{description}</div></div>"
         fullFile += content
     fullFile += "</body>"
     f.write(indentFormat(fullFile))
+config = pdfkit.configuration(wkhtmltopdf=r'D:\Downoads\wkhtmltopdf\bin\wkhtmltopdf.exe')
+pdfkit.from_file(
+    getFileName(fileName, 'html'),
+    getFileName(fileName, 'pdf'),
+    configuration=config,
+    options={
+        'encoding': 'UTF-8',
+        'enable-local-file-access': ''
+    }
+)
