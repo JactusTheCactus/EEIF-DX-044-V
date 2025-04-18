@@ -238,6 +238,16 @@ pdfkit.from_file(
     }
 )
 def mdFormat(html):
+    html = re.sub(r'<style>.*</style>',r'',html)
+    html = re.sub(r'<!DOCTYPE html>',r'',html)
+    html = re.sub(r'<title>.*</title>',r'',html)
+    html = re.sub(r'<head></head>',r'',html)
+    html = re.sub(r'<div class="watermark">CLASSIFIED</div>',r'',html)
+    html = re.sub(r'<span class="redacted">(.*?)</span>',lambda m:'█'*len(m.group(1)),html)
+    html = re.sub(r'',r'',html)
+    html = re.sub(r'',r'',html)
+    html = re.sub(r'',r'',html)
+    #html = re.sub(r'',r'',html)
     return html
 with open(getFileName(fileName,'html'),'r',encoding='utf-8') as f:
     htmlFile = f.read()
