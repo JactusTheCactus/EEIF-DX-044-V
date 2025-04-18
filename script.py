@@ -237,3 +237,9 @@ pdfkit.from_file(
         'enable-local-file-access': ''
     }
 )
+def mdFormat(html):
+    return html
+with open(getFileName(fileName,'html'),'r',encoding='utf-8') as f:
+    htmlFile = f.read()
+with open(getFileName('README','md'),'w',encoding='utf-8') as f:
+    f.write(mdFormat(htmlFile))
