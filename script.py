@@ -264,7 +264,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         name = re.sub(r" \".*\" ",r" ",name)
         name = re.sub(r" ",r"-",name)
         name = name.lower()
-        charFile = getFileName(f'{charDir}/{name}','md')
+        charFile = getFileName(f'{charDir}/{index}-{name}','md')
         charFiles.append([charFile,content])
         with open(charFile,'w',encoding='utf-8') as char:
             char.write(mdFormat(content))
