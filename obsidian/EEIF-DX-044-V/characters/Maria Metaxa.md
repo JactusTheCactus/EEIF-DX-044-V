@@ -1,6 +1,7 @@
-# MARIA METAXA<br>*[ma-REE-ah]—[may-ta-KSA]*<br>Preferred Name: `Maria`
+# MARIA METAXA<br>*[ma-REE-ah]—[may-ta-KSA]*<br>Preferred Name: Maria
 
-Threat Level: **`M—S—2` *(Malevolent, Structured, Moderate Risk — Field Agent Required)***
+
+Threat Level: **M—S—2 *(Malevolent, Structured, Moderate Risk — Field Agent Required)***
 
 Species: **Predator**
 
@@ -17,4 +18,3 @@ Perhaps it's the unique sparkle in a friend's eyes, the infectious laughter that
 As she forges these bonds, Maria learns to temper her predatory nature with empathy and understanding. She comes to appreciate the complexity of human relationships, the depth of emotional connections, and the richness of shared experiences. In turn, her friends discover a multifaceted creature, one whose allure is as much about the danger she represents as the warmth and loyalty she can offer.
 
 Attributes that define Maria include her striking beauty, her sharp intellect, her air of mystery, her status as a high-tier Pred, her capacity for both ruthless hunger and genuine connection, and her ability to form deep, meaningful relationships with humans despite her predatory nature.
-

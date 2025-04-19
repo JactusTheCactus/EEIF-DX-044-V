@@ -1,6 +1,7 @@
-# KIMIKO ABE<br>*[KIM-i-koh]—[AH-bay]*<br>Preferred Name: `Kim`
+# KIMIKO ABE<br>*[KIM-i-koh]—[AH-bay]*<br>Preferred Name: Kim
 
-Threat Level: **`M—S—0` *(Malevolent, Structured, Extreme Risk — Termination Protocol Approved)***
+
+Threat Level: **M—S—0 *(Malevolent, Structured, Extreme Risk — Termination Protocol Approved)***
 
 Species: **Predator**
 
@@ -19,4 +20,3 @@ As a ruthless bully and sadist, Kimiko takes great pleasure in inflicting pain a
 In class, Kimiko often sits quietly, her piercing gaze fixed on a unsuspecting Prey. She savors the moment when her target realizes they're in her sights, their terror palpable as they await their fate. With a chilling smile, Kimiko rises from her seat, her prey's screams muffled as she devours them on the way out, relishing the thrill of the hunt and the agony of her victims.
 
 Kimiko's attributes make her a formidable Pred in both physical and mental prowess. Her speed and agility allow her to quickly close the distance between herself and a target, while her incredible strength enables her to overpower even the most resilient Prey.
-

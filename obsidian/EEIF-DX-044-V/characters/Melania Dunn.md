@@ -1,6 +1,7 @@
-# MELANIA DUNN<br>*[muh-LAH-nee-uh]—[DUN]*<br>Preferred Name: `Mel`
+# MELANIA DUNN<br>*[muh-LAH-nee-uh]—[DUN]*<br>Preferred Name: Mel
 
-Threat Level: **`<span class="redacted">-</span>—<span class="redacted">-</span>—1` *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, High Risk — Armed Containment Authorized)***
+
+Threat Level: **█—█—1 *(██████████, ██████████, High Risk — Armed Containment Authorized)***
 
 Species: **Elemental (Shadow)**
 
@@ -9,7 +10,10 @@ Sex: **Female**
 Place of Birth: **Germany**
 
 Spoken Languages: ***German*, English**
-
 ## Abilities
 
-<ul><li>Killing Touch</li><li>Longevity</li><li>Umbral Magic</li><li>Shapeshifting</li><li>Invisibility</li></ul>
+- Killing Touch
+- Longevity
+- Umbral Magic
+- Shapeshifting
+- Invisibility

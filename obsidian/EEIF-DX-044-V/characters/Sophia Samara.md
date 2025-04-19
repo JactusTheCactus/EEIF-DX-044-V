@@ -1,6 +1,7 @@
-# SOPHIA SAMARA<br>*[soh-FEE-ah]—[sah-mah-RAH]*<br>Preferred Name: `Sophia`
+# SOPHIA SAMARA<br>*[soh-FEE-ah]—[sah-mah-RAH]*<br>Preferred Name: Sophia
 
-Threat Level: **`M—<span class="redacted">-</span>—0` *(Malevolent, <span class="redacted">----------</span>, Extreme Risk — Termination Protocol Approved)***
+
+Threat Level: **M—█—0 *(Malevolent, ██████████, Extreme Risk — Termination Protocol Approved)***
 
 Species: **Harpy**
 
@@ -19,4 +20,3 @@ Despite her regal bearing, Sophia exudes an aura of insatiable hunger, a primal 
 Attributes that define Sophia include her striking beauty, her ravenous appetite, and her twisted arousal at the thought of vore - the thrill of feeling her prey's struggles as she digests them alive. She is a paradox of grace and brutality, refinement and carnage
 
 Her wealth, acquired through a combination of skill in hunting and shrewd business dealings, affords her the luxuries she desires, from opulent mansions to exotic trinkets. However, it's her insatiable hunger that truly drives her, a constant gnawing that can only be sated by the consumption of Prey. Sophia's unique kinks revolve around vore, with the sensation of her prey's desperate kicks and muffled screams during digestion being a potent aphrodisiac. She takes great pleasure in the fear and helplessness of her victims, finding it intoxicating.
-

@@ -1,6 +1,7 @@
-# GABRIELLA BELNADES<br>*[GAH-bee]—[bell-NA-dhess]*<br>Preferred Name: `Gabi`
+# GABRIELLA BELNADES<br>*[GAH-bee]—[bell-NA-dhess]*<br>Preferred Name: Gabi
 
-Threat Level: **`N—S—1` *(Neutral, Structured, High Risk — Armed Containment Authorized)***
+
+Threat Level: **N—S—1 *(Neutral, Structured, High Risk — Armed Containment Authorized)***
 
 Species: **Predator (Changeling)**
 
@@ -9,8 +10,27 @@ Sex: **Female**
 Place of Birth: **Silver City, New Mexico, USA**
 
 Spoken Languages: ***Spanish*, English, American Sign Language**
+- Hair
+    - long
+    - dark brown
+- Height
+    - above average
+- Build
+    - toned
+    - muscular
+- Figure
+    - curvy
+    - attractive
+    - large chest/ass
+- Humour
+    - light
+    - sarcastic
+    - teasing
+- Vibe
+    - carefree
+    - playful
 
-<ul><li>Hair<ul><li>long</li><li>dark brown</li></ul><li>Height<ul><li>above average</li></ul><li>Build<ul><li>toned</li><li>muscular</li></ul><li>Figure<ul><li>curvy</li><li>attractive</li><li>large chest/ass</li></ul><li>Humour<ul><li>light</li><li>sarcastic</li><li>teasing</li></ul><li>Vibe<ul><li>carefree</li><li>playful</li></ul></ul>Gabi wears a black leather choker, with a heart-shaped ring in the middle. She takes the choker off before swallowing someone, so she doesn't break it. Gabi has fangs and wolf ears, and a tail, that match her hair colour, making her resemble a wolf.
+Gabi wears a black leather choker, with a heart-shaped ring in the middle. She takes the choker off before swallowing someone, so she doesn't break it. Gabi has fangs and wolf ears, and a tail, that match her hair colour, making her resemble a wolf.
 
 Gabi swears in Spanish a lot. She speaks Spanglish slightly more than pure English.
 
@@ -19,4 +39,3 @@ Gabi doesn't advertise that she's a Pred, but doesn't hide it either. If you ask
 If Gabi catches you being mean to her friends, she will swallow you and it is very unlikely that she will let you live.
 
 Gabi has the power to grow herself to the size of a skyscraper. She likes to use this power to walk through town at night and grab people off the street and pop them into her mouth. She can also transform into a black dire wolf on command.
-

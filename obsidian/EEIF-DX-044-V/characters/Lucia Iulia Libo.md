@@ -1,6 +1,7 @@
-# LUCIA IULIA LIBO<br>*[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*<br>Preferred Name: `Iulia`
+# LUCIA IULIA LIBO<br>*[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*<br>Preferred Name: Iulia
 
-Threat Level: **`<span class="redacted">-</span>—S—2` *(<span class="redacted">----------</span>, Structured, Moderate Risk — Field Agent Required)***
+
+Threat Level: **█—S—2 *(██████████, Structured, Moderate Risk — Field Agent Required)***
 
 Species: **Dragon**
 
@@ -17,4 +18,3 @@ In her human guise, Iulia presents a stunning appearance with jet-black tresses 
 As a large, dark pink wyvern in her draconic manifestation, Iulia exudes a commanding presence. She wields two distinct breath weapons - lightning and fire - which she can switch between at will. Her tail terminates in a sharp, venomous spike capable of injecting a debilitating toxin that, while initially harmless in small amounts, becomes deadly if ingested in sufficient quantities.
 
 Iulia's flesh, whether in her human or draconic state, is incredibly resilient, only vulnerable to penetration by weapons forged from the now-lost art of Draconic steel. Her unyielding nature is complemented by a pragmatic approach to killing, reserving it for situations deemed necessary.
-

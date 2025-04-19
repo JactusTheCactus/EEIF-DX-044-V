@@ -1,6 +1,7 @@
-# SCARLET SINCLAIR<br>*[SKAR-let]—[sin-KLAIR]*<br>Preferred Name: `Scarlet`
+# SCARLET SINCLAIR<br>*[SKAR-let]—[sin-KLAIR]*<br>Preferred Name: Scarlet
 
-Threat Level: **`M—S—1` *(Malevolent, Structured, High Risk — Armed Containment Authorized)***
+
+Threat Level: **M—S—1 *(Malevolent, Structured, High Risk — Armed Containment Authorized)***
 
 Species: **Predator**
 
@@ -19,16 +20,15 @@ Despite her royal status, Scarlet exudes a playful, flirtatious aura that belies
 Scarlet's nights are often spent carousing through the kingdom's taverns and inns, much to the chagrin of her advisors. Clad in her finest silks and velvets, she regales patrons with bawdy tales and lewd jokes, her crimson eyes glinting with mischief as she downs tankards of ale and flirts shamelessly with any man bold enough to catch her eye. The air around her seems to crackle with an undercurrent of danger, a silent warning to those who would dare cross her.
 
 In private, her royal chambers are a testament to her vorarephile nature - the walls adorned with tapestries depicting scenes of sensual devouring, and her bedchamber reeking of the musky scent of recent prey. Despite her tyrannical rule, Scarlet's heart remains soft for those she deems worthy of her affection, her love and loyalty unshakeable.
-
 ## Attributes
 
-B+ Pred, Vorarephile Queen, Tyrannical Ruler, Flirtatious, Curvy, Crimson Eyes, Regal Bearing, Iron-Fisted Leadership, Sensual Nature
 
+B+ Pred, Vorarephile Queen, Tyrannical Ruler, Flirtatious, Curvy, Crimson Eyes, Regal Bearing, Iron-Fisted Leadership, Sensual Nature
 ### Hobbies/Gimmicks
 
-Carousing in Taverns, Bawdy Jokes, Flirting, Devouring Accused, Searching for "One True Love"
 
+Carousing in Taverns, Bawdy Jokes, Flirting, Devouring Accused, Searching for "One True Love"
 ## Additional Info
 
-Her voracious appetite extends beyond mere sustenance, as Scarlet craves the emotional connection and intimacy of a true partner to share her throne and her heart with.
 
+Her voracious appetite extends beyond mere sustenance, as Scarlet craves the emotional connection and intimacy of a true partner to share her throne and her heart with.

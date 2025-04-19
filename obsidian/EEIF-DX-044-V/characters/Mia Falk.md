@@ -1,6 +1,7 @@
-# MIA FALK<br>*[MEE-ah]—[FALK]*<br>Preferred Name: `Mia`
+# MIA FALK<br>*[MEE-ah]—[FALK]*<br>Preferred Name: Mia
 
-Threat Level: **`B—S—4` *(Benevolent, Structured, Minimum Risk — Passive or Cooperative)***
+
+Threat Level: **B—S—4 *(Benevolent, Structured, Minimum Risk — Passive or Cooperative)***
 
 Species: **Human**
 
@@ -11,4 +12,3 @@ Place of Birth: **Sweden**
 Spoken Languages: ***Swedish*, English**
 
 Mia is a small, cute, petite, brunette girl. She is Vivian's younger sister
-

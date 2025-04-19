@@ -8,7 +8,8 @@ docName = 'EEIF-DX-044-V'
 styling = '''<style>
     body {
         background-color: #fff;
-        font-family: "Times New Roman"
+        font-family: "Times New Roman";
+        font-size: 20px;
     }
     hr {
         height: 1em;
@@ -50,6 +51,30 @@ styling = re.sub(r' ?(;) ?',r'\1',styling)
 styling = re.sub(r' ?(\{|\}|:|;|,) ?',r'\1',styling)
 styling = re.sub(r'(<.*>) *(.*) *(</.*>)',r'\1\2\3',styling)
 charFiles = []
+def mdList(html: str) -> str:
+    depth = 0
+    # This pattern matches either:
+    #  1. group(1) = 'ul' or '/ul'    for <ul> / </ul>
+    #  2. group(2) = the content inside <li>…</li>
+    pattern = re.compile(r'<(/?ul)>|<li>(.*?)</li>', re.DOTALL)
+
+    def repl(m):
+        nonlocal depth
+        if m.group(1):
+            # we saw a <ul> or </ul>
+            if m.group(1) == 'ul':
+                depth += 1
+            else:
+                depth -= 1
+            return ''                    # drop the tags themselves
+        else:
+            # we saw an <li>…</li>
+            text = m.group(2).strip()
+            indent = '    ' * (depth - 1)
+            return f'{indent}- {text}\n'
+
+    # run the substitution and strip any leading/trailing blank lines
+    return pattern.sub(repl, html)#.strip()
 def charFormat(file):
     file = file.replace('CLASSIFIED','')
     file = file.replace('<div class="watermark"></div>','')
@@ -61,13 +86,15 @@ def charFormat(file):
     file = re.sub(r'<h4>(.*?)</h4>',r'### \1\n\n',file)
     file = re.sub(r'<h5>(.*?)</h5>',r'#### \1\n\n',file)
     file = re.sub(r'<h6>(.*?)</h6>',r'##### \1\n\n',file)
-    file = re.sub(r'<code>(.*?)</code>',r'`\1`',file)
+    file = re.sub(r'<code>(.*?)</code>',r'\1',file)
     file = re.sub(r'&mdash;',r'—',file)
     file = re.sub(r'<b>(.*?)</b>',r'**\1**',file)
     file = re.sub(r'<i>(.*?)</i>',r'*\1*',file)
-    file = re.sub(r'<p>(.*?)</p>',r'\1\n\n',file)
+    file = re.sub(r'<p>(.*?)</p>',r'\n\1\n',file)
     file = re.sub(r'&nbsp;',r'',file)
     file = re.sub(r'<sup>(.*?)</sup>',r'\1',file)
+    file = re.sub(r'<span class="redacted">(.*?)</span>',lambda m:'█'*len(m.group(1)),file)
+    file = mdList(file)
     return file
 def clearDir(directory):
     if os.path.exists(directory):
@@ -100,8 +127,10 @@ def redact(text,length=None):
         pass
     if length:
         text = text[:length]
+    text = '█'*len(text)
     text = f'<span class="redacted">{text}</span>'
     return text
+header = f'<code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: {docName}<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
 indent = repeat('&nbsp;',4)
 def listStat(label, stat):
     if stat in ['',None]:
@@ -132,7 +161,7 @@ def format(text,mode=''):
 with open(f'{fileName}.html','w') as f:
     f.write('')
 with open(f'{fileName}.html','a',encoding='utf-8') as f:
-    fullFile = f'<!DOCTYPE html><head><title>{docName}</title></head>{styling}<body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: {docName}<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+    fullFile = f'<!DOCTYPE html><head><title>{docName}</title></head>{styling}<body>{header}'
     index = 0
     for item in file:
         entityNum = f'{file.index(item) + 1}'
@@ -289,5 +318,21 @@ for i in range(len(charFiles)):
         f.write(charFormat(charFiles[i][1]))
 with open(getFileName(fileName,'html'),'r',encoding='utf-8') as f:
     htmlFile = f.read()
+header = charFormat(mdFormat(header))
+header = re.sub(r'<pre>(.*)</pre>',r'\1',header)
+header = re.sub(r'<hr>',r'\n\n---\n\n',header)
+header = re.sub(r'<br>',r'  \n',header)
+header = re.sub(r'^\n',r'',header)
+header = re.sub(r'\n$',r'',header)
 with open(getFileName('README','md'),'w',encoding='utf-8') as f:
-    f.write(mdFormat(htmlFile))
+    f.write(header)
+charFileList = [f for f in os.listdir(charDir) if os.path.isfile(os.path.join(charDir, f))]
+for i in range(len(charFileList)):
+    charFileList[i] = f'{charDir}/{charFileList[i]}'
+with open(f'{docName}.md','w',encoding='utf-8') as f:
+    f.write(f'{header}\n')
+for i in charFileList:
+    with open(i,'r',encoding='utf-8') as c:
+        character = c.read()
+    with open(f'{docName}.md','a',encoding='utf-8') as f:
+        f.write(f'\n---\n\n{character}\n\n---\n')
