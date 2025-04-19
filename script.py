@@ -262,18 +262,15 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         charDir = 'obsidian/EEIF-DX-044-V/characters' 
         clearDir(charDir)
         name = re.sub(r" \".*\" ",r" ",name)
-        name = re.sub(r" ",r"-",name)
         name = name.lower()
-        charFile = getFileName(f'{charDir}/{index}-{name}','md')
+        charNameList = name.split()
+        for i in range(len(charNameList)):
+            charNameList[i] = charNameList[i].capitalize()
+        name = ' '.join(charNameList)
+        charFile = getFileName(f'{charDir}/{name}','md')
         charFiles.append([charFile,content])
         with open(charFile,'w',encoding='utf-8') as char:
             char.write(mdFormat(content))
-        charNameList = charFile[34:-3].replace('-',' ').split()
-        for i in range(len(charNameList)):
-            charNameList[i] = charNameList[i].capitalize()
-        charName = ' '.join(charNameList)
-        print(f'{index}: {charName}')
-        charFiles[index][0] = getFileName(charDir + '/' + charName, 'md')
         index += 1
     fullFile += "</body>"
     f.write(indentFormat(fullFile))
