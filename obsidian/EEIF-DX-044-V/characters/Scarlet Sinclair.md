@@ -1,6 +1,6 @@
-# SCARLET SINCLAIR<br>*[SKAR-let]&mdash;[sin-KLAIR]*<br>Preferred Name: Scarlet
+# SCARLET SINCLAIR<br>*[SKAR-let]—[sin-KLAIR]*<br>Preferred Name: `Scarlet`
 
-Threat Level: **M&mdash;S&mdash;1 *(Malevolent, Structured, High Risk &mdash; Armed Containment Authorized)***
+Threat Level: **`M—S—1` *(Malevolent, Structured, High Risk — Armed Containment Authorized)***
 
 Species: **Predator**
 

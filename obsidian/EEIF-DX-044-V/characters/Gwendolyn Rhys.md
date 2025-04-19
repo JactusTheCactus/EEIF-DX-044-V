@@ -1,6 +1,6 @@
-# GWENDOLYN RHYS<br>*[GWEN-doh-lun]&mdash;[REES]*<br>Preferred Name: Gwen
+# GWENDOLYN RHYS<br>*[GWEN-doh-lun]—[REES]*<br>Preferred Name: `Gwen`
 
-Threat Level: **B&mdash;<span class="redacted">-</span>&mdash;2 *(Benevolent, <span class="redacted">----------</span>, Moderate Risk &mdash; Field Agent Required)***
+Threat Level: **`B—<span class="redacted">-</span>—2` *(Benevolent, <span class="redacted">----------</span>, Moderate Risk — Field Agent Required)***
 
 Species: **Predator (Apex)**
 

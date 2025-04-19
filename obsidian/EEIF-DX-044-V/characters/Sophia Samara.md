@@ -1,6 +1,6 @@
-# SOPHIA SAMARA<br>*[soh-FEE-ah]&mdash;[sah-mah-RAH]*<br>Preferred Name: Sophia
+# SOPHIA SAMARA<br>*[soh-FEE-ah]—[sah-mah-RAH]*<br>Preferred Name: `Sophia`
 
-Threat Level: **M&mdash;<span class="redacted">-</span>&mdash;0 *(Malevolent, <span class="redacted">----------</span>, Extreme Risk &mdash; Termination Protocol Approved)***
+Threat Level: **`M—<span class="redacted">-</span>—0` *(Malevolent, <span class="redacted">----------</span>, Extreme Risk — Termination Protocol Approved)***
 
 Species: **Harpy**
 

@@ -1,6 +1,6 @@
-# SAMANTHA PRYOR<br>*[sah-MAN-thah]&mdash;[pr-EYE-er]*<br>Preferred Name: Sam
+# SAMANTHA PRYOR<br>*[sah-MAN-thah]—[pr-EYE-er]*<br>Preferred Name: `Sam`
 
-Threat Level: **<span class="redacted">-</span>&mdash;<span class="redacted">-</span>&mdash;3 *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, Low Risk &mdash; Requires Monitoring)***
+Threat Level: **`<span class="redacted">-</span>—<span class="redacted">-</span>—3` *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, Low Risk — Requires Monitoring)***
 
 Species: **Human**
 

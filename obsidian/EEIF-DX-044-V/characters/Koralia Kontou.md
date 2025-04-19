@@ -1,6 +1,6 @@
-# KORALIA KONTOU<br>*[koh-rah-LEE-ah]&mdash;[koh-DOO]*<br>Preferred Name: Kori
+# KORALIA KONTOU<br>*[koh-rah-LEE-ah]—[koh-DOO]*<br>Preferred Name: `Kori`
 
-Threat Level: **M&mdash;S&mdash;1 *(Malevolent, Structured, High Risk &mdash; Armed Containment Authorized)***
+Threat Level: **`M—S—1` *(Malevolent, Structured, High Risk — Armed Containment Authorized)***
 
 Species: **Mermaid (Giantess)**
 

@@ -61,7 +61,8 @@ def charFormat(file):
     file = re.sub(r'<h4>(.*?)</h4>',r'### \1\n\n',file)
     file = re.sub(r'<h5>(.*?)</h5>',r'#### \1\n\n',file)
     file = re.sub(r'<h6>(.*?)</h6>',r'##### \1\n\n',file)
-    file = re.sub(r'<code>(.*?)</code>',r'\1',file)
+    file = re.sub(r'<code>(.*?)</code>',r'`\1`',file)
+    file = re.sub(r'&mdash;',r'—',file)
     file = re.sub(r'<b>(.*?)</b>',r'**\1**',file)
     file = re.sub(r'<i>(.*?)</i>',r'*\1*',file)
     file = re.sub(r'<p>(.*?)</p>',r'\1\n\n',file)
@@ -132,7 +133,7 @@ with open(f'{fileName}.html','w') as f:
     f.write('')
 with open(f'{fileName}.html','a',encoding='utf-8') as f:
     fullFile = f'<!DOCTYPE html><head><title>{docName}</title></head>{styling}<body><code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: {docName}<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
-    index = 1
+    index = 0
     for item in file:
         entityNum = f'{file.index(item) + 1}'
         if len(entityNum) == 1:
@@ -260,8 +261,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         fullFile += content
         charDir = 'obsidian/EEIF-DX-044-V/characters' 
         clearDir(charDir)
-        name = re.sub(r"\"",r"'",name)
-        name = re.sub(r" '.*' ",r" ",name)
+        name = re.sub(r" \".*\" ",r" ",name)
         name = re.sub(r" ",r"-",name)
         name = name.lower()
         charFile = getFileName(f'{charDir}/{name}','md')
@@ -273,6 +273,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
             charNameList[i] = charNameList[i].capitalize()
         charName = ' '.join(charNameList)
         print(f'{index}: {charName}')
+        charFiles[index][0] = getFileName(charDir + '/' + charName, 'md')
         index += 1
     fullFile += "</body>"
     f.write(indentFormat(fullFile))

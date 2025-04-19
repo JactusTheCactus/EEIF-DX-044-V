@@ -1,6 +1,6 @@
-# KASSANDRA ARGYRI<br>*[kah-SAN-dhrah]&mdash;[ar-GHEE-ree]*<br>Preferred Name: Kassi
+# KASSANDRA ARGYRI<br>*[kah-SAN-dhrah]—[ar-GHEE-ree]*<br>Preferred Name: `Kassi`
 
-Threat Level: **N&mdash;S&mdash;3 *(Neutral, Structured, Low Risk &mdash; Requires Monitoring)***
+Threat Level: **`N—S—3` *(Neutral, Structured, Low Risk — Requires Monitoring)***
 
 Species: **Predator**
 

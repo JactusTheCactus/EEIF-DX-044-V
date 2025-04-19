@@ -1,6 +1,6 @@
-# KIMIKO ABE<br>*[KIM-i-koh]&mdash;[AH-bay]*<br>Preferred Name: Kim
+# KIMIKO ABE<br>*[KIM-i-koh]—[AH-bay]*<br>Preferred Name: `Kim`
 
-Threat Level: **M&mdash;S&mdash;0 *(Malevolent, Structured, Extreme Risk &mdash; Termination Protocol Approved)***
+Threat Level: **`M—S—0` *(Malevolent, Structured, Extreme Risk — Termination Protocol Approved)***
 
 Species: **Predator**
 

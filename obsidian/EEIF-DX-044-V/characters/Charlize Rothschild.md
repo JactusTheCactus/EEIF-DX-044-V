@@ -1,6 +1,6 @@
-# CHARLIZE ROTHSCHILD<br>*[shar-LEEZ]&mdash;[ROTE-shild]*<br>Preferred Name: Charlie
+# CHARLIZE ROTHSCHILD<br>*[shar-LEEZ]—[ROTE-shild]*<br>Preferred Name: `Charlie`
 
-Threat Level: **M&mdash;C&mdash;2 *(Malevolent, Chaotic, Moderate Risk &mdash; Field Agent Required)***
+Threat Level: **`M—C—2` *(Malevolent, Chaotic, Moderate Risk — Field Agent Required)***
 
 Species: **Predator (Apex)**
 

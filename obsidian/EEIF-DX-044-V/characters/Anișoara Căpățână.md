@@ -1,6 +1,6 @@
-# ANIȘOARA "MURONI" CĂPĂȚÂNĂ<br>*[ah-ni-sho-AR-ah]&mdash;[moo-ROH-nee]&mdash;[kuh-puh-TSUU-nuh]*<br>Preferred Name: Ani
+# ANIȘOARA "MURONI" CĂPĂȚÂNĂ<br>*[ah-ni-sho-AR-ah]—[moo-ROH-nee]—[kuh-puh-TSUU-nuh]*<br>Preferred Name: `Ani`
 
-Threat Level: **M&mdash;C&mdash;2 *(Malevolent, Chaotic, Moderate Risk &mdash; Field Agent Required)***
+Threat Level: **`M—C—2` *(Malevolent, Chaotic, Moderate Risk — Field Agent Required)***
 
 Species: **Human**
 

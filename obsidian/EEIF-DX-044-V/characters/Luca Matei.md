@@ -1,6 +1,6 @@
-# LUCA MATEI<br>*[LOO-kah]&mdash;[mah-TAY]*<br>Preferred Name: Luca
+# LUCA MATEI<br>*[LOO-kah]—[mah-TAY]*<br>Preferred Name: `Luca`
 
-Threat Level: **<span class="redacted">-</span>&mdash;<span class="redacted">-</span>&mdash;3 *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, Low Risk &mdash; Requires Monitoring)***
+Threat Level: **`<span class="redacted">-</span>—<span class="redacted">-</span>—3` *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, Low Risk — Requires Monitoring)***
 
 Species: **Vampire**
 

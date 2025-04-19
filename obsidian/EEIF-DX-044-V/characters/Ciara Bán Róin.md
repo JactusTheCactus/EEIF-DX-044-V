@@ -1,6 +1,6 @@
-# CIARA BÁN RÓIN<br>*[KEE-rah]&mdash;[BAN]&mdash;[ROH-in]*<br>Preferred Name: Ciara
+# CIARA BÁN RÓIN<br>*[KEE-rah]—[BAN]—[ROH-in]*<br>Preferred Name: `Ciara`
 
-Threat Level: **B&mdash;S&mdash;4 *(Benevolent, Structured, Minimum Risk &mdash; Passive or Cooperative)***
+Threat Level: **`B—S—4` *(Benevolent, Structured, Minimum Risk — Passive or Cooperative)***
 
 Species: **Selkie**
 

@@ -1,6 +1,6 @@
-# AURORA VĂDUVA<br>*[oh-ROR-ah]&mdash;[vuh-DOO-vah]*<br>Preferred Name: Aurora
+# AURORA VĂDUVA<br>*[oh-ROR-ah]—[vuh-DOO-vah]*<br>Preferred Name: `Aurora`
 
-Threat Level: **M&mdash;C&mdash;3 *(Malevolent, Chaotic, Low Risk &mdash; Requires Monitoring)***
+Threat Level: **`M—C—3` *(Malevolent, Chaotic, Low Risk — Requires Monitoring)***
 
 Species: **Huldra**
 

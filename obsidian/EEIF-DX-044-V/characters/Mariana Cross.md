@@ -1,6 +1,6 @@
-# MARIANA CROSS<br>*[MAH-ree-ah-nah]&mdash;[KROS]*<br>Preferred Name: Mari
+# MARIANA CROSS<br>*[MAH-ree-ah-nah]—[KROS]*<br>Preferred Name: `Mari`
 
-Threat Level: **<span class="redacted">-</span>&mdash;<span class="redacted">-</span>&mdash;1 *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, High Risk &mdash; Armed Containment Authorized)***
+Threat Level: **`<span class="redacted">-</span>—<span class="redacted">-</span>—1` *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, High Risk — Armed Containment Authorized)***
 
 Species: **Demon**
 

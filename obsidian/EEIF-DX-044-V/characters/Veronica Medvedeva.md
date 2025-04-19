@@ -1,6 +1,6 @@
-# VERONICA "МЕДВЕДЬ" MEDVEDEVA<br>*[Vuh-RON-ih-kuh]&mdash;[MED-ved]&mdash;[med-vuh-DEH-va]*<br>Preferred Name: Veronica
+# VERONICA "МЕДВЕДЬ" MEDVEDEVA<br>*[Vuh-RON-ih-kuh]—[MED-ved]—[med-vuh-DEH-va]*<br>Preferred Name: `Veronica`
 
-Threat Level: **<span class="redacted">-</span>&mdash;S&mdash;3 *(<span class="redacted">----------</span>, Structured, Low Risk &mdash; Requires Monitoring)***
+Threat Level: **`<span class="redacted">-</span>—S—3` *(<span class="redacted">----------</span>, Structured, Low Risk — Requires Monitoring)***
 
 Species: **Changeling**
 

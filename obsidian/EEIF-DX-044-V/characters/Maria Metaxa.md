@@ -1,6 +1,6 @@
-# MARIA METAXA<br>*[ma-REE-ah]&mdash;[may-ta-KSA]*<br>Preferred Name: Maria
+# MARIA METAXA<br>*[ma-REE-ah]—[may-ta-KSA]*<br>Preferred Name: `Maria`
 
-Threat Level: **M&mdash;S&mdash;2 *(Malevolent, Structured, Moderate Risk &mdash; Field Agent Required)***
+Threat Level: **`M—S—2` *(Malevolent, Structured, Moderate Risk — Field Agent Required)***
 
 Species: **Predator**
 

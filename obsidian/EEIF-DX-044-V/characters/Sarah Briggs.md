@@ -1,6 +1,6 @@
-# SARAH BRIGGS<br>*[SAY-rah]&mdash;[BRIGZ]*<br>Preferred Name: Sarah
+# SARAH BRIGGS<br>*[SAY-rah]—[BRIGZ]*<br>Preferred Name: `Sarah`
 
-Threat Level: **M&mdash;S&mdash;2 *(Malevolent, Structured, Moderate Risk &mdash; Field Agent Required)***
+Threat Level: **`M—S—2` *(Malevolent, Structured, Moderate Risk — Field Agent Required)***
 
 Species: **Predator**
 

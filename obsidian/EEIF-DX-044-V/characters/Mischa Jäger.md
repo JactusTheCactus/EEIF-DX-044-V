@@ -1,6 +1,6 @@
-# MISCHA JÄGER<br>*[MEE-sha]&mdash;[YEH-ger]*<br>Preferred Name: Mischa
+# MISCHA JÄGER<br>*[MEE-sha]—[YEH-ger]*<br>Preferred Name: `Mischa`
 
-Threat Level: **<span class="redacted">-</span>&mdash;<span class="redacted">-</span>&mdash;4 *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, Minimum Risk &mdash; Passive or Cooperative)***
+Threat Level: **`<span class="redacted">-</span>—<span class="redacted">-</span>—4` *(<span class="redacted">----------</span>, <span class="redacted">----------</span>, Minimum Risk — Passive or Cooperative)***
 
 Species: **Human**
 

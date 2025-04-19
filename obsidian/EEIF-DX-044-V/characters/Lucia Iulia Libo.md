@@ -1,6 +1,6 @@
-# LUCIA IULIA LIBO<br>*[LOO-chee-ah]&mdash;[YOO-lee-ah]&mdash;[LEE-boh]*<br>Preferred Name: Iulia
+# LUCIA IULIA LIBO<br>*[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*<br>Preferred Name: `Iulia`
 
-Threat Level: **<span class="redacted">-</span>&mdash;S&mdash;2 *(<span class="redacted">----------</span>, Structured, Moderate Risk &mdash; Field Agent Required)***
+Threat Level: **`<span class="redacted">-</span>—S—2` *(<span class="redacted">----------</span>, Structured, Moderate Risk — Field Agent Required)***
 
 Species: **Dragon**
 

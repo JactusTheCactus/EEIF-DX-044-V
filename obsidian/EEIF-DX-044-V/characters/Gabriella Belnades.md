@@ -1,6 +1,6 @@
-# GABRIELLA BELNADES<br>*[GAH-bee]&mdash;[bell-NA-dhess]*<br>Preferred Name: Gabi
+# GABRIELLA BELNADES<br>*[GAH-bee]—[bell-NA-dhess]*<br>Preferred Name: `Gabi`
 
-Threat Level: **N&mdash;S&mdash;1 *(Neutral, Structured, High Risk &mdash; Armed Containment Authorized)***
+Threat Level: **`N—S—1` *(Neutral, Structured, High Risk — Armed Containment Authorized)***
 
 Species: **Predator (Changeling)**
 
