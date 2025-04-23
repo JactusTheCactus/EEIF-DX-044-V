@@ -1090,23 +1090,70 @@
                 ""
             ],
             [
+                "",
+                ""
+            ],
+            [
                 ""
             ]
         ],
         "pob": [
-            "Canada",
-            "British Columbia",
-            "Vancouver"
+            "",
+            "",
+            ""
         ],
-        "profession": "Mob Boss",
-        "sex": "Male",
+        "profession": "",
+        "sex": "",
         "species": [
-            "Human",
-            "Unconfirmed"
+            "",
+            ""
         ],
         "tags": [
-            "human",
-            "sfw"
+            "",
+            ""
+        ]
+    },
+    {
+        "alignment": {
+            "empathy": "",
+            "morals": "",
+            "risk": X
+        },
+        "description": "",
+        "languages": [
+            ""
+        ],
+        "name": [
+            [
+                "",
+                ""
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        "pob": [
+            "",
+            "",
+            ""
+        ],
+        "profession": "",
+        "sex": "",
+        "species": [
+            "",
+            ""
+        ],
+        "tags": [
+            "",
+            ""
         ]
     }
 ]
