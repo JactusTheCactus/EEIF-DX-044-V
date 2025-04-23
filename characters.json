@@ -1072,29 +1072,25 @@
     },
     {
         "alignment": {
-            "empathy": "",
-            "morals": "",
-            "risk": X
+            "empathy": "neutral",
+            "morals": "chaotic",
+            "risk": 3
         },
-        "description": "",
+        "description": "Allie is an adorable, short redhead. She is also a Changeling, but doesn't care to tell people, preferring it to be a surprise. She has a full figure.",
         "languages": [
-            ""
+            "English"
         ],
         "name": [
             [
-                "",
-                ""
+                "Allison",
+                "[A-li-sin]"
             ],
             [
-                "",
-                ""
+                "Webb",
+                "[WEB]"
             ],
             [
-                "",
-                ""
-            ],
-            [
-                ""
+                "Allie"
             ]
         ],
         "pob": [
@@ -1103,14 +1099,13 @@
             ""
         ],
         "profession": "",
-        "sex": "",
+        "sex": "Female",
         "species": [
-            "",
-            ""
+            "Changeling"
         ],
         "tags": [
-            "",
-            ""
+            "inhuman",
+            "sfw"
         ]
     },
     {
