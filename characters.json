@@ -1069,5 +1069,44 @@
             "human",
             "sfw"
         ]
+    },
+    {
+        "alignment": {
+            "empathy": "",
+            "morals": "",
+            "risk": X
+        },
+        "description": "",
+        "languages": [
+            ""
+        ],
+        "name": [
+            [
+                "",
+                ""
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        "pob": [
+            "Canada",
+            "British Columbia",
+            "Vancouver"
+        ],
+        "profession": "Mob Boss",
+        "sex": "Male",
+        "species": [
+            "Human",
+            "Unconfirmed"
+        ],
+        "tags": [
+            "human",
+            "sfw"
+        ]
     }
 ]
