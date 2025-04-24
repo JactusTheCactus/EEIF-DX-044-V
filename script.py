@@ -331,8 +331,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
             char.write(mdFormat(content))
         index += 1
     fullFile += "</body>"
-    f.write(indentFormat(fullFile))
-config = pdfkit.configuration(wkhtmltopdf=r'D:\Downoads\wkhtmltopdf\bin\wkhtmltopdf.exe')
+    f.write(indentFormat(fullFile))
 pdfkit.from_file(
     getFileName(fileName, 'html'),
     getFileName(docName, 'pdf'),
