@@ -1,18 +1,29 @@
-# CHARLIZE ROTHSCHILD<br>*[shar-LEEZ]—[ROTE-shild]*<br>Preferred Name: Charlie
 
-
+<div id="charlize-rothschild" style="page-break-before: always;">
+  <h2>
+    CHARLIZE ROTHSCHILD<br>
+    *[shar-LEEZ]—[ROTE-shild]*
+    <br>Preferred Name: Charlie
+  </h2>
+  
 Threat Level: **M—C—2 *(Malevolent, Chaotic, Moderate Risk — Field Agent Required)***
 
+  
 Species: **Predator (Apex)**
 
+  
 Sex: **Female**
 
+  
 Profession: **University Student**
 
+  
 Place of Birth: **Philadelphia, Pennsylvania, USA**
 
+  
 Spoken Languages: ***English***
-## Physical Description & Species
+
+  ## Physical Description & Species
 
 
 Charlize appears as an average human female, standing at around 5'6" with a slender yet athletic build. Her crimson eyes, a dead giveaway of her Pred nature, seem to gleam with an unsettling hunger. A small, vertical split runs along her tongue, a distinctive trait shared by her kind. Her dark hair is often styled in a chic, asymmetrical bob that frames her heart-shaped face. She sports a subtle tattoo of a serpent coiled around her right bicep, marking her as a formidable Apex predator.
@@ -36,3 +47,5 @@ Shrinking Preys to an inch tall before devouring them is Charlize's twisted hobb
 
 
 Rumors of her high school atrocity have followed Charlize to college, where she's earned a reputation as the campus's resident Killer. Preys avoid her at all costs, sensing the malevolent presence that lurks beneath her polished exterior. Despite this, Charlize maintains a 4.0 GPA, excelling in her studies while secretly plotting her next meal. Her dorm room is meticulously clean, with no trace of her dark secret, save for the terrariums housing former classmates.
+
+</div>

@@ -1,16 +1,27 @@
-# GABRIELLA BELNADES<br>*[GAH-bee]—[bell-NA-dhess]*<br>Preferred Name: Gabi
 
-
+<div id="gabriella-belnades" style="page-break-before: always;">
+  <h2>
+    GABRIELLA BELNADES<br>
+    *[GAH-bee]—[bell-NA-dhess]*
+    <br>Preferred Name: Gabi
+  </h2>
+  
 Threat Level: **N—S—1 *(Neutral, Structured, High Risk — Armed Containment Authorized)***
 
+  
 Species: **Predator (Changeling)**
 
+  
 Sex: **Female**
 
+  
+  
 Place of Birth: **Silver City, New Mexico, USA**
 
+  
 Spoken Languages: ***Spanish*, English, American Sign Language**
-- Hair
+
+  - Hair
     - long
     - dark brown
 - Height
@@ -39,3 +50,5 @@ Gabi doesn't advertise that she's a Pred, but doesn't hide it either. If you ask
 If Gabi catches you being mean to her friends, she will swallow you and it is very unlikely that she will let you live.
 
 Gabi has the power to grow herself to the size of a skyscraper. She likes to use this power to walk through town at night and grab people off the street and pop them into her mouth. She can also transform into a black dire wolf on command.
+
+</div>

@@ -1,16 +1,27 @@
-# CIARA BÁN RÓIN<br>*[KEE-rah]—[BAN]—[ROH-in]*<br>Preferred Name: Ciara
 
-
+<div id="ciara-bán-róin" style="page-break-before: always;">
+  <h2>
+    CIARA BÁN RÓIN<br>
+    *[KEE-rah]—[BAN]—[ROH-in]*
+    <br>Preferred Name: Ciara
+  </h2>
+  
 Threat Level: **B—S—4 *(Benevolent, Structured, Minimum Risk — Passive or Cooperative)***
 
+  
 Species: **Selkie**
 
+  
 Sex: **Female**
 
+  
+  
 Place of Birth: **County Kerry, Munster, Ireland**
 
+  
 Spoken Languages: ***Irish*, English**
-## Appearance
+
+  ## Appearance
 
 ### Human Form
 
@@ -100,3 +111,5 @@ Her biggest fear is being exposed, especially when her sealskin or the knot migh
 
 
 The sea is both her refuge and her prison. She feels most alive when near the water but also trapped by her need to keep her true nature a secret. Her feelings of longing for the ocean are compounded by the isolation she experiences on land.
+
+</div>

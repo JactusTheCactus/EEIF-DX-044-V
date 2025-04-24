@@ -1,16 +1,27 @@
-# GWENDOLYN RHYS<br>*[GWEN-doh-lun]—[REES]*<br>Preferred Name: Gwen
 
-
+<div id="gwendolyn-rhys" style="page-break-before: always;">
+  <h2>
+    GWENDOLYN RHYS<br>
+    *[GWEN-doh-lun]—[REES]*
+    <br>Preferred Name: Gwen
+  </h2>
+  
 Threat Level: **B—█—2 *(Benevolent, ██████████, Moderate Risk — Field Agent Required)***
 
+  
 Species: **Predator (Apex)**
 
+  
 Sex: **Female**
 
+  
+  
 Place of Birth: **Cardiff, City and County of Cardiff, Wales**
 
+  
 Spoken Languages: ***Welsh*, English**
 
+  
 Gwen's romantic nature manifests in her appreciation for the beauty and wonder of the natural world. She finds solace in the intricate dance of life and death that plays out in the wilderness, seeing it as a testament to the cycle of existence. This perspective, combined with her empathetic stance towards Prey, shapes her approach to the hunt. She seeks to end their lives swiftly and mercifully, respecting the sacrifice they make to sustain her.
 
 In her rare moments of solitude, Gwen indulges in romantic fantasies, imagining a companion who could understand and share her unique perspective. She longs for someone to explore the mysteries of the world with, to share in her love for ancient lore and the secrets of the land.
@@ -32,3 +43,5 @@ Gwen has a fascination with ancient lore and mythology, often collecting and stu
 
 
 Gwen's Apex physiology grants her incredible strength, speed, and resilience, allowing her to traverse the wilderness with ease. Her romantic inclinations may lead her to be more open to the idea of a Pred-Prey relationship.
+
+</div>
