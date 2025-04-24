@@ -130,7 +130,15 @@ def redact(text,length=None):
     text = '█'*len(text)
     text = f'<span class="redacted">{text}</span>'
     return text
-header = f'<code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>REFERENCE CODE: {docName}<hr><b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. All field agents must refer to this file when encountering subjects listed herein.<hr></code>'
+header = (
+    f"<code><hr>UNITED STATES DEPARTMENT OF DEFENSE<br>"
+    f"ENHANCED ENTITY INTELLIGENCE FILE (EEIF)<br>" 
+    f"CLASSIFIED — LEVEL 5 CLEARANCE REQUIRED<br>" 
+    f"REFERENCE CODE: {docName}<hr>" 
+    f"<b>NOTICE:</b> This document contains sensitive data pertaining to enhanced, supernatural, and anomalous entities. " 
+    f"Unauthorized access is punishable under Federal Statute {redact('|||')}-{redact('|||')}. " 
+    f"All field agents must refer to this file when encountering subjects listed herein.<hr></code>"
+)
 indent = repeat('&nbsp;',4)
 def listStat(label, stat):
     if stat in ['',None]:
