@@ -335,7 +335,6 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
 pdfkit.from_file(
     getFileName(fileName, 'html'),
     getFileName(docName, 'pdf'),
-    configuration=config,
     options={
         'encoding': 'UTF-8',
         'enable-local-file-access': ''
