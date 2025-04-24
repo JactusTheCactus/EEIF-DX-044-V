@@ -299,10 +299,10 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
                 f"<i>{'(' + ', '.join(threatListDesc) + ')' if (ethics or order) else ''}</i>"
              )
         content = (
-            f"<div class=\"watermark\">CLASSIFIED</div>"
-            f"<div id=\"{re.sub(r'\"',r'',name.lower().replace(' ','-'))}\" style=\"page-break-before: always;\">"
-            f"<h2>ENTITY {entityNum} &mdash; {name.upper()}<br>"
-            f"<sup><i>{indent+proName}</i></sup>"
+            f'<div class="watermark">CLASSIFIED</div>'
+            f'<div id="{re.sub(r"\"",r"",name.lower().replace(" ","-"))}" style="page-break-before: always;">'
+            f'<h2>ENTITY {entityNum} &mdash; {name.upper()}<br>'
+            f'<sup><i>{indent+proName}</i></sup>'
             f"{f'<br>{indent}Preferred Name: <code>{prefName}</code>' if prefName else ''}</h2>"
             f"{threatLevel}"
             f"{listStat('Species', species)}"
