@@ -276,8 +276,6 @@ Sex: **Female**
 
   
   
-Place of Birth: **, , **
-
   
 Spoken Languages: ***English***
 
@@ -561,8 +559,6 @@ Sex: **Female**
 
   
   
-Place of Birth: **, , **
-
   
 Spoken Languages: ***English***
 
