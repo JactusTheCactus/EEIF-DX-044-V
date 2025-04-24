@@ -293,7 +293,11 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
                     threat = redact(threat[23])
                     threatListShort.append(threat)
         if ethics or order or risk:
-            threatLevel = listStat('Threat Level',f'<code>{'&mdash;'.join(threatListShort)}</code> <i>{f'({', '.join(threatListDesc)})' if ethics or order else ''}</i>')
+            threatLevel = listStat(
+                'Threat Level',
+                f"<code>{'&mdash;'.join(threatListShort)}</code> "
+                f"<i>{'(' + ', '.join(threatListDesc) + ')' if (ethics or order) else ''}</i>"
+             )
         content = (
             f"<div class=\"watermark\">CLASSIFIED</div>"
             f"<div id=\"{re.sub(r'\"',r'',name.lower().replace(' ','-'))}\" style=\"page-break-before: always;\">"
