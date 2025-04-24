@@ -300,7 +300,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
             f"{listStat('Spoken Languages', languages)}"
             f"<div id=\"description\">{description}</div>"
             f"</div>"
-)
+        )
         fullFile += content
         charDir = 'obsidian/EEIF-DX-044-V/characters' 
         clearDir(charDir)
