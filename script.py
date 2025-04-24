@@ -298,23 +298,24 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
                 f"<code>{'&mdash;'.join(threatListShort)}</code> "
                 f"<i>{'(' + ', '.join(threatListDesc) + ')' if (ethics or order) else ''}</i>"
              )
-        content = (
-            f'<div class="watermark">CLASSIFIED</div>'
-            f"<div id='"
-            re.sub(r'\"', r'', name.lower().replace(' ', '-'))
-            f"' style='page-break-before: always;'>"
-            f'<h2>ENTITY {entityNum} &mdash; {name.upper()}<br>'
-            f'<sup><i>{indent+proName}</i></sup>'
-            f'{f"<br>{indent}Preferred Name: <code>{prefName}</code>" if prefName else ""}</h2>'
-            f'{threatLevel}'
-            f'{listStat("Species", species)}'
-            f'{listStat("Sex", sex)}'
-            f'{listStat("Profession", profession)}'
-            f'{listStat("Place of Birth", pob)}'
-            f'{listStat("Spoken Languages", languages)}'
-            f'<div id="description">{description}</div>'
-            f'</div>'
-        )
+        clean_id = re.sub(r'"', '', name.lower().replace(' ', '-'))
+        content = f'''
+<div class="watermark">CLASSIFIED</div>
+<div id="{clean_id}" style="page-break-before: always;">
+  <h2>
+    ENTITY {entityNum} &mdash; {name.upper()}<br>
+    <sup><i>{indent + proName}</i></sup>
+    {f"<br>{indent}Preferred Name: <code>{prefName}</code>" if prefName else ""}
+  </h2>
+  {threatLevel}
+  {listStat("Species", species)}
+  {listStat("Sex", sex)}
+  {listStat("Profession", profession)}
+  {listStat("Place of Birth", pob)}
+  {listStat("Spoken Languages", languages)}
+  <div id="description">{description}</div>
+</div>
+'''.strip()
         fullFile += content
         charDir = 'obsidian/EEIF-DX-044-V/characters' 
         clearDir(charDir)
