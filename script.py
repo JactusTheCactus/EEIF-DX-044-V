@@ -316,7 +316,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
   <h2>
     ENTITY {entityNum} &mdash; {name.upper()}<br>
     <sup><i>{indent + altName if altName is not None else ""}</i></sup>
-    <sup><i>{indent + proName}</i></sup>
+    <br><sup><i>{indent + proName}</i></sup>
     {f"<br>{indent}Preferred Name: <code>{prefName}</code>" if prefName else ""}
   </h2>
   {threatLevel}
