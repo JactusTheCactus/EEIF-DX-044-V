@@ -43,11 +43,6 @@ jobs:
           git pull --rebase || git rebase --abort  # Abort rebase if conflicts occur
           git push || echo "Push failed due to conflicts. Manual resolution required."
 
-      - name: Upload Pages artifact
-        uses: actions/upload-artifact@v4
-        with:
-          path: ./  # Replace with the actual build output directory
-
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
