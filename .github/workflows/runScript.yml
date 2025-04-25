@@ -39,8 +39,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Auto-commit: update from script" || echo "No changes to commit"
-          git pull --rebase   # Pull the latest changes
-          git push
+          git pull --rebase || git rebase --abort  # Abort rebase if conflicts occur
+          git push || echo "Push failed due to conflicts. Manual resolution required."
           
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v4
