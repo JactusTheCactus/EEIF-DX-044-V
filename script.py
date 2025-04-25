@@ -201,6 +201,15 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         if len(item.get("name")) == 3 and len(item.get("name")[-1]) > 1:
             proNameList.append(item.get("name")[2][1])
         proName = '&mdash;'.join(proNameList)
+        altNameList = []
+        if len(item.get("name")[0]) > 2:
+            for i in item.get("name"):
+                if len(i) > 2:
+                    altNameList.append(item.get("name")[i][2])
+        if len(altNameList) != 0:
+            altName = " ".join(altNameList)
+        else:
+            altName = None
         description = item.get("description")
         clearance = [
             'TOP SECRET',
@@ -306,6 +315,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
 <div id="{clean_id}" style="page-break-before: always;">
   <h2>
     ENTITY {entityNum} &mdash; {name.upper()}<br>
+    <sup><i>{indent + altName if altName not None}</i></sup>
     <sup><i>{indent + proName}</i></sup>
     {f"<br>{indent}Preferred Name: <code>{prefName}</code>" if prefName else ""}
   </h2>
