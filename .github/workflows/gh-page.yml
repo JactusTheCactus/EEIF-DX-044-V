@@ -19,12 +19,14 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          path: .  # Adjust this if index.html is in a subfolder
+          path: index.html
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
+      actions: write
       pages: write
       id-token: write
 
