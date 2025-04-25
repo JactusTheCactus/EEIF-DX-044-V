@@ -3,7 +3,7 @@
   <h2>
     GABRIELLA BELNADES<br>
     **
-    *[GAH-bee]—[bell-NA-dhess]*
+    <br>*[GAH-bee]—[bell-NA-dhess]*
     <br>Preferred Name: Gabi
   </h2>
   

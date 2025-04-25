@@ -3,7 +3,7 @@
   <h2>
     CHARLIZE ROTHSCHILD<br>
     **
-    *[shar-LEEZ]—[ROTE-shild]*
+    <br>*[shar-LEEZ]—[ROTE-shild]*
     <br>Preferred Name: Charlie
   </h2>
   

@@ -3,7 +3,7 @@
   <h2>
     KORALIA KONTOU<br>
     *Κοραλία Κοντού*
-    *[koh-rah-LEE-ah]—[koh-DOO]*
+    <br>*[koh-rah-LEE-ah]—[koh-DOO]*
     <br>Preferred Name: Kori
   </h2>
   

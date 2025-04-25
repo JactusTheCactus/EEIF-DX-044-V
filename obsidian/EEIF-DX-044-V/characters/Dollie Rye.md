@@ -3,7 +3,7 @@
   <h2>
     DOLLIE RYE<br>
     **
-    *[DAH-lee]—[REYE]*
+    <br>*[DAH-lee]—[REYE]*
     <br>Preferred Name: Dollie
   </h2>
   

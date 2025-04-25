@@ -3,7 +3,7 @@
   <h2>
     MARIANA CROSS<br>
     **
-    *[MAH-ree-ah-nah]—[KROS]*
+    <br>*[MAH-ree-ah-nah]—[KROS]*
     <br>Preferred Name: Mari
   </h2>
   

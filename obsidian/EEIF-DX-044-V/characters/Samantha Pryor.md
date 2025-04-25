@@ -3,7 +3,7 @@
   <h2>
     SAMANTHA PRYOR<br>
     **
-    *[sah-MAN-thah]—[pr-EYE-er]*
+    <br>*[sah-MAN-thah]—[pr-EYE-er]*
     <br>Preferred Name: Sam
   </h2>
   

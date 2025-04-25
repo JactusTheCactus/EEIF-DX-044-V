@@ -3,7 +3,7 @@
   <h2>
     MISCHA JÄGER<br>
     **
-    *[MEE-sha]—[YEH-ger]*
+    <br>*[MEE-sha]—[YEH-ger]*
     <br>Preferred Name: Mischa
   </h2>
   

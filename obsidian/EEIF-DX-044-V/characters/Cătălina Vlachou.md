@@ -3,7 +3,7 @@
   <h2>
     CĂTĂLINA VLACHOU<br>
     **
-    *[kuh-tuh-LEE-nah]—[vla-KOO]*
+    <br>*[kuh-tuh-LEE-nah]—[vla-KOO]*
     <br>Preferred Name: Căt
   </h2>
   

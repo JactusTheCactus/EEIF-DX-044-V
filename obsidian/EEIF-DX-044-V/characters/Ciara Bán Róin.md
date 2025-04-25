@@ -3,7 +3,7 @@
   <h2>
     CIARA BÁN RÓIN<br>
     **
-    *[KEE-rah]—[BAN]—[ROH-in]*
+    <br>*[KEE-rah]—[BAN]—[ROH-in]*
     <br>Preferred Name: Ciara
   </h2>
   

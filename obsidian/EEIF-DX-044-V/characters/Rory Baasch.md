@@ -3,7 +3,7 @@
   <h2>
     RORY BAASCH<br>
     **
-    *[ROH-ree]—[BOSH]*
+    <br>*[ROH-ree]—[BOSH]*
     <br>Preferred Name: Rory
   </h2>
   

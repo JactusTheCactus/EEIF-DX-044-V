@@ -3,7 +3,7 @@
   <h2>
     GWENDOLYN RHYS<br>
     **
-    *[GWEN-doh-lun]—[REES]*
+    <br>*[GWEN-doh-lun]—[REES]*
     <br>Preferred Name: Gwen
   </h2>
   

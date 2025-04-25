@@ -3,7 +3,7 @@
   <h2>
     LUCA MATEI<br>
     **
-    *[LOO-kah]—[mah-TAY]*
+    <br>*[LOO-kah]—[mah-TAY]*
     <br>Preferred Name: Luca
   </h2>
   

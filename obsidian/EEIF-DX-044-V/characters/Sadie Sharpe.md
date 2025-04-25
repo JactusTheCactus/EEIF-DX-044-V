@@ -3,7 +3,7 @@
   <h2>
     SADIE SHARPE<br>
     **
-    *[SAY-dee]—[SHARP]*
+    <br>*[SAY-dee]—[SHARP]*
     <br>Preferred Name: Sadie
   </h2>
   

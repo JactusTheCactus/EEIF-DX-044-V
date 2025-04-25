@@ -3,7 +3,7 @@
   <h2>
     LUCIA IULIA LIBO<br>
     **
-    *[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*
+    <br>*[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*
     <br>Preferred Name: Iulia
   </h2>
   

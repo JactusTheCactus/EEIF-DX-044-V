@@ -3,7 +3,7 @@
   <h2>
     SCARLET SINCLAIR<br>
     **
-    *[SKAR-let]—[sin-KLAIR]*
+    <br>*[SKAR-let]—[sin-KLAIR]*
     <br>Preferred Name: Scarlet
   </h2>
   

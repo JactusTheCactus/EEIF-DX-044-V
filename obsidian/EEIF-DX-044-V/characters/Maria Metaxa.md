@@ -3,7 +3,7 @@
   <h2>
     MARIA METAXA<br>
     *Μαρία Μεταξά*
-    *[ma-REE-ah]—[may-ta-KSA]*
+    <br>*[ma-REE-ah]—[may-ta-KSA]*
     <br>Preferred Name: Maria
   </h2>
   

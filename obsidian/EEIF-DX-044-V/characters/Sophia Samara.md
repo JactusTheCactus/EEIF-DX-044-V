@@ -3,7 +3,7 @@
   <h2>
     SOPHIA SAMARA<br>
     *Σοφία Σαμαρά*
-    *[soh-FEE-ah]—[sah-mah-RAH]*
+    <br>*[soh-FEE-ah]—[sah-mah-RAH]*
     <br>Preferred Name: Sophia
   </h2>
   

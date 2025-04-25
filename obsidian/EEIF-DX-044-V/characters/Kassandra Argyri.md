@@ -3,7 +3,7 @@
   <h2>
     KASSANDRA ARGYRI<br>
     *Κασσάνδρα Αργύρη*
-    *[kah-SAN-dhrah]—[ar-GHEE-ree]*
+    <br>*[kah-SAN-dhrah]—[ar-GHEE-ree]*
     <br>Preferred Name: Kassi
   </h2>
   

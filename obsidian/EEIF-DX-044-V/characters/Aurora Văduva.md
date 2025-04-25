@@ -3,7 +3,7 @@
   <h2>
     AURORA VĂDUVA<br>
     **
-    *[oh-ROR-ah]—[vuh-DOO-vah]*
+    <br>*[oh-ROR-ah]—[vuh-DOO-vah]*
     <br>Preferred Name: Aurora
   </h2>
   
