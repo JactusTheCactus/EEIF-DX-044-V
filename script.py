@@ -160,6 +160,8 @@ if not os.path.exists(f'{fileName}.html'):
 with open('characters.json','r',encoding='utf-8') as f:
     file_ = f.read()
 file = json.loads(file_)
+file__ = list(sorted(file, key=lambda char: char["name"][-2][0]))
+file = file__
 def format(text,mode=''):
     text = text.replace('<br>','')
     text = text.replace('h5','h6').replace('h4','h5').replace('h3','h4').replace('h2','h3').replace('h1','h2')
@@ -331,7 +333,8 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
             char.write(mdFormat(content))
         index += 1
     fullFile += "</body>"
-    f.write(indentFormat(fullFile))
+    f.write(indentFormat(fullFile))
+
 pdfkit.from_file(
     getFileName(fileName, 'html'),
     getFileName(docName, 'pdf'),
