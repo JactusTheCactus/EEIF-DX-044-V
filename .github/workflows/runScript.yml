@@ -45,10 +45,10 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./  # or ./ if your index.html is in root
+          path: ./  # Replace with the actual build output directory
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
-          branch: main  # Or the branch configured in your Pages settings
+          branch: main
           token: ${{ secrets.GITHUB_TOKEN }}
