@@ -205,7 +205,7 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
         if len(item.get("name")[0]) > 2:
             for i in item.get("name"):
                 if len(i) > 2:
-                    altNameList.append(item.get("name")[i][2])
+                    altNameList.append(i[2])
         if len(altNameList) != 0:
             altName = " ".join(altNameList)
         else:
