@@ -2,6 +2,7 @@
 <div id="lou-leclair" style="page-break-before: always;">
   <h2>
     LOU LECLAIR<br>
+    **
     *[LOO]—[luh-KLAIR]*
     <br>Preferred Name: Lou
   </h2>

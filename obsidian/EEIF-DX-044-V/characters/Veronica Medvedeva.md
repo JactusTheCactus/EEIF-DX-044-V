@@ -2,6 +2,7 @@
 <div id="veronica-медведь-medvedeva" style="page-break-before: always;">
   <h2>
     VERONICA "МЕДВЕДЬ" MEDVEDEVA<br>
+    **
     *[Vuh-RON-ih-kuh]—[MED-ved]—[med-vuh-DEH-va]*
     <br>Preferred Name: Veronica
   </h2>

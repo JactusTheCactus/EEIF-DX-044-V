@@ -2,6 +2,7 @@
 <div id="kimiko-abe" style="page-break-before: always;">
   <h2>
     KIMIKO ABE<br>
+    *貴美子 安倍*
     *[KIM-i-koh]—[AH-bay]*
     <br>Preferred Name: Kim
   </h2>

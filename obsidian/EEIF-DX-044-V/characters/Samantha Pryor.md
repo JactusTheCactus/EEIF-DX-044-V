@@ -2,6 +2,7 @@
 <div id="samantha-pryor" style="page-break-before: always;">
   <h2>
     SAMANTHA PRYOR<br>
+    **
     *[sah-MAN-thah]—[pr-EYE-er]*
     <br>Preferred Name: Sam
   </h2>

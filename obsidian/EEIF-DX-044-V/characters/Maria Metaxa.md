@@ -2,6 +2,7 @@
 <div id="maria-metaxa" style="page-break-before: always;">
   <h2>
     MARIA METAXA<br>
+    *Μαρία Μεταξά*
     *[ma-REE-ah]—[may-ta-KSA]*
     <br>Preferred Name: Maria
   </h2>
