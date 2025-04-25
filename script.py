@@ -314,9 +314,9 @@ with open(f'{fileName}.html','a',encoding='utf-8') as f:
 <div class="watermark">CLASSIFIED</div>
 <div id="{clean_id}" style="page-break-before: always;">
   <h2>
-    ENTITY {entityNum} &mdash; {name.upper()}<br>
-    <sup><i>{indent + altName if altName is not None else ""}</i></sup>
-    <br><sup><i>{indent + proName}</i></sup>
+    ENTITY {entityNum} &mdash; {name.upper()}
+    {f"<br><sup><i>{indent + altName}</i></sup>" if altName is not None else ""}
+    {f"<br><sup><i>{indent + proName}</i></sup>" if preName is not None else ""}
     {f"<br>{indent}Preferred Name: <code>{prefName}</code>" if prefName else ""}
   </h2>
   {threatLevel}
