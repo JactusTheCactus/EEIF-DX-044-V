@@ -49,3 +49,6 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          branch: main  # Or the branch configured in your Pages settings
+          token: ${{ secrets.GITHUB_TOKEN }}
