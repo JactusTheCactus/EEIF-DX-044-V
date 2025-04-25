@@ -33,6 +33,7 @@ jobs:
 
       - name: Run script.py
         run: python script.py
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
@@ -41,7 +42,7 @@ jobs:
           git commit -m "Auto-commit: update from script" || echo "No changes to commit"
           git pull --rebase || git rebase --abort  # Abort rebase if conflicts occur
           git push || echo "Push failed due to conflicts. Manual resolution required."
-          
+
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v4
         with:
