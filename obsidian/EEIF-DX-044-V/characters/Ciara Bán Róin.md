@@ -1,8 +1,8 @@
 
 <div id="ciara-bán-róin" style="page-break-before: always;">
   <h2>
-    CIARA BÁN RÓIN<br>
-    **
+    CIARA BÁN RÓIN
+    
     <br>*[KEE-rah]—[BAN]—[ROH-in]*
     <br>Preferred Name: Ciara
   </h2>

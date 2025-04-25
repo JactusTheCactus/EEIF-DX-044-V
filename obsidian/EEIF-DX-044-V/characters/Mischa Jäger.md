@@ -1,8 +1,8 @@
 
 <div id="mischa-jäger" style="page-break-before: always;">
   <h2>
-    MISCHA JÄGER<br>
-    **
+    MISCHA JÄGER
+    
     <br>*[MEE-sha]—[YEH-ger]*
     <br>Preferred Name: Mischa
   </h2>

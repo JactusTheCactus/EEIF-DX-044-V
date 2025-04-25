@@ -1,8 +1,8 @@
 
 <div id="lucia-iulia-libo" style="page-break-before: always;">
   <h2>
-    LUCIA IULIA LIBO<br>
-    **
+    LUCIA IULIA LIBO
+    
     <br>*[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*
     <br>Preferred Name: Iulia
   </h2>

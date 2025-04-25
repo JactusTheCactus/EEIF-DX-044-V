@@ -1,8 +1,8 @@
 
 <div id="scarlet-sinclair" style="page-break-before: always;">
   <h2>
-    SCARLET SINCLAIR<br>
-    **
+    SCARLET SINCLAIR
+    
     <br>*[SKAR-let]—[sin-KLAIR]*
     <br>Preferred Name: Scarlet
   </h2>

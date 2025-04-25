@@ -1,8 +1,8 @@
 
 <div id="maria-metaxa" style="page-break-before: always;">
   <h2>
-    MARIA METAXA<br>
-    *Μαρία Μεταξά*
+    MARIA METAXA
+    <br>*Μαρία Μεταξά*
     <br>*[ma-REE-ah]—[may-ta-KSA]*
     <br>Preferred Name: Maria
   </h2>

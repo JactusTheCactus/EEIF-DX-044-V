@@ -1,8 +1,8 @@
 
 <div id="vivian-falk" style="page-break-before: always;">
   <h2>
-    VIVIAN FALK<br>
-    **
+    VIVIAN FALK
+    
     <br>*[VI-vee-in]—[FALK]*
     <br>Preferred Name: Viv
   </h2>

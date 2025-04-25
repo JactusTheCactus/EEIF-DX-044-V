@@ -1,8 +1,8 @@
 
 <div id="anișoara-muroni-căpățână" style="page-break-before: always;">
   <h2>
-    ANIȘOARA "MURONI" CĂPĂȚÂNĂ<br>
-    **
+    ANIȘOARA "MURONI" CĂPĂȚÂNĂ
+    
     <br>*[ah-ni-sho-AR-ah]—[moo-ROH-nee]—[kuh-puh-TSUU-nuh]*
     <br>Preferred Name: Ani
   </h2>

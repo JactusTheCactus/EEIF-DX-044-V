@@ -1,8 +1,8 @@
 
 <div id="aurora-văduva" style="page-break-before: always;">
   <h2>
-    AURORA VĂDUVA<br>
-    **
+    AURORA VĂDUVA
+    
     <br>*[oh-ROR-ah]—[vuh-DOO-vah]*
     <br>Preferred Name: Aurora
   </h2>

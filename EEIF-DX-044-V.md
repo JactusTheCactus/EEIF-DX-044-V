@@ -17,8 +17,8 @@ REFERENCE CODE: EEIF-DX-044-V
 
 <div id="cătălina-vlachou" style="page-break-before: always;">
   <h2>
-    CĂTĂLINA VLACHOU<br>
-    **
+    CĂTĂLINA VLACHOU
+    
     <br>*[kuh-tuh-LEE-nah]—[vla-KOO]*
     <br>Preferred Name: Căt
   </h2>
@@ -48,8 +48,8 @@ Spoken Languages: ***Romanian*, English**
 
 <div id="vivian-falk" style="page-break-before: always;">
   <h2>
-    VIVIAN FALK<br>
-    **
+    VIVIAN FALK
+    
     <br>*[VI-vee-in]—[FALK]*
     <br>Preferred Name: Viv
   </h2>
@@ -105,8 +105,8 @@ Vivian enjoys exploring the city's hidden corners, often seeking out secluded sp
 
 <div id="charlize-rothschild" style="page-break-before: always;">
   <h2>
-    CHARLIZE ROTHSCHILD<br>
-    **
+    CHARLIZE ROTHSCHILD
+    
     <br>*[shar-LEEZ]—[ROTE-shild]*
     <br>Preferred Name: Charlie
   </h2>
@@ -162,8 +162,8 @@ Rumors of her high school atrocity have followed Charlize to college, where she'
 
 <div id="samantha-pryor" style="page-break-before: always;">
   <h2>
-    SAMANTHA PRYOR<br>
-    **
+    SAMANTHA PRYOR
+    
     <br>*[sah-MAN-thah]—[pr-EYE-er]*
     <br>Preferred Name: Sam
   </h2>
@@ -195,8 +195,8 @@ Sam is a tall woman. Sam is a romantic, flirtatious and sexual pansexual. She al
 
 <div id="koralia-kontou" style="page-break-before: always;">
   <h2>
-    KORALIA KONTOU<br>
-    *Κοραλία Κοντού*
+    KORALIA KONTOU
+    <br>*Κοραλία Κοντού*
     <br>*[koh-rah-LEE-ah]—[koh-DOO]*
     <br>Preferred Name: Kori
   </h2>
@@ -228,8 +228,8 @@ Koralia is a mermaid giantess, who eats any humans that stumble across her, unle
 
 <div id="rory-baasch" style="page-break-before: always;">
   <h2>
-    RORY BAASCH<br>
-    **
+    RORY BAASCH
+    
     <br>*[ROH-ree]—[BOSH]*
     <br>Preferred Name: Rory
   </h2>
@@ -267,8 +267,8 @@ He is suspected to be human, but this is not confirmed
 
 <div id="dollie-rye" style="page-break-before: always;">
   <h2>
-    DOLLIE RYE<br>
-    **
+    DOLLIE RYE
+    
     <br>*[DAH-lee]—[REYE]*
     <br>Preferred Name: Dollie
   </h2>
@@ -296,8 +296,8 @@ Spoken Languages: ***English***
 
 <div id="melania-dunn" style="page-break-before: always;">
   <h2>
-    MELANIA DUNN<br>
-    **
+    MELANIA DUNN
+    
     <br>*[muh-LAH-nee-uh]—[DUN]*
     <br>Preferred Name: Mel
   </h2>
@@ -334,8 +334,8 @@ Spoken Languages: ***German*, English**
 
 <div id="mariana-cross" style="page-break-before: always;">
   <h2>
-    MARIANA CROSS<br>
-    **
+    MARIANA CROSS
+    
     <br>*[MAH-ree-ah-nah]—[KROS]*
     <br>Preferred Name: Mari
   </h2>
@@ -377,8 +377,8 @@ Caucasian, with long black hair*(Mariana hides her tail, along with anything els
 
 <div id="veronica-медведь-medvedeva" style="page-break-before: always;">
   <h2>
-    VERONICA "МЕДВЕДЬ" MEDVEDEVA<br>
-    **
+    VERONICA "МЕДВЕДЬ" MEDVEDEVA
+    
     <br>*[Vuh-RON-ih-kuh]—[MED-ved]—[med-vuh-DEH-va]*
     <br>Preferred Name: Veronica
   </h2>
@@ -412,8 +412,8 @@ Veronica can shapeshift into a large grizzly bear on command, hence her nickname
 
 <div id="gwendolyn-rhys" style="page-break-before: always;">
   <h2>
-    GWENDOLYN RHYS<br>
-    **
+    GWENDOLYN RHYS
+    
     <br>*[GWEN-doh-lun]—[REES]*
     <br>Preferred Name: Gwen
   </h2>
@@ -465,8 +465,8 @@ Gwen's Apex physiology grants her incredible strength, speed, and resilience, al
 
 <div id="scarlet-sinclair" style="page-break-before: always;">
   <h2>
-    SCARLET SINCLAIR<br>
-    **
+    SCARLET SINCLAIR
+    
     <br>*[SKAR-let]—[sin-KLAIR]*
     <br>Preferred Name: Scarlet
   </h2>
@@ -518,8 +518,8 @@ Her voracious appetite extends beyond mere sustenance, as Scarlet craves the emo
 
 <div id="lucia-iulia-libo" style="page-break-before: always;">
   <h2>
-    LUCIA IULIA LIBO<br>
-    **
+    LUCIA IULIA LIBO
+    
     <br>*[LOO-chee-ah]—[YOO-lee-ah]—[LEE-boh]*
     <br>Preferred Name: Iulia
   </h2>
@@ -557,8 +557,8 @@ Iulia's flesh, whether in her human or draconic state, is incredibly resilient, 
 
 <div id="allison-webb" style="page-break-before: always;">
   <h2>
-    ALLISON WEBB<br>
-    **
+    ALLISON WEBB
+    
     <br>*[A-li-sin]—[WEB]*
     <br>Preferred Name: Allie
   </h2>
@@ -586,8 +586,8 @@ Spoken Languages: ***English***
 
 <div id="maria-metaxa" style="page-break-before: always;">
   <h2>
-    MARIA METAXA<br>
-    *Μαρία Μεταξά*
+    MARIA METAXA
+    <br>*Μαρία Μεταξά*
     <br>*[ma-REE-ah]—[may-ta-KSA]*
     <br>Preferred Name: Maria
   </h2>
@@ -625,8 +625,8 @@ Attributes that define Maria include her striking beauty, her sharp intellect, h
 
 <div id="lou-leclair" style="page-break-before: always;">
   <h2>
-    LOU LECLAIR<br>
-    **
+    LOU LECLAIR
+    
     <br>*[LOO]—[luh-KLAIR]*
     <br>Preferred Name: Lou
   </h2>
@@ -656,8 +656,8 @@ Spoken Languages: ***French*, English, Spanish**
 
 <div id="joanna-tuttle" style="page-break-before: always;">
   <h2>
-    JOANNA TUTTLE<br>
-    **
+    JOANNA TUTTLE
+    
     <br>*[yoh-AH-nah]—[TUH-tuul]*
     <br>Preferred Name: Jo
   </h2>
@@ -689,8 +689,8 @@ Spoken Languages: ***West Frisian*, Dutch, English**
 
 <div id="sadie-sharpe" style="page-break-before: always;">
   <h2>
-    SADIE SHARPE<br>
-    **
+    SADIE SHARPE
+    
     <br>*[SAY-dee]—[SHARP]*
     <br>Preferred Name: Sadie
   </h2>
@@ -722,8 +722,8 @@ Spoken Languages: ***English***
 
 <div id="luca-matei" style="page-break-before: always;">
   <h2>
-    LUCA MATEI<br>
-    **
+    LUCA MATEI
+    
     <br>*[LOO-kah]—[mah-TAY]*
     <br>Preferred Name: Luca
   </h2>
@@ -755,8 +755,8 @@ Luca is from Constanța, Romania. He is also a 300-year-old vampire, but tends t
 
 <div id="kassandra-argyri" style="page-break-before: always;">
   <h2>
-    KASSANDRA ARGYRI<br>
-    *Κασσάνδρα Αργύρη*
+    KASSANDRA ARGYRI
+    <br>*Κασσάνδρα Αργύρη*
     <br>*[kah-SAN-dhrah]—[ar-GHEE-ree]*
     <br>Preferred Name: Kassi
   </h2>
@@ -788,8 +788,8 @@ Kassie is a pred milf. Kassie is very open about being a pred, willing to eat an
 
 <div id="gabriella-belnades" style="page-break-before: always;">
   <h2>
-    GABRIELLA BELNADES<br>
-    **
+    GABRIELLA BELNADES
+    
     <br>*[GAH-bee]—[bell-NA-dhess]*
     <br>Preferred Name: Gabi
   </h2>
@@ -848,8 +848,8 @@ Gabi has the power to grow herself to the size of a skyscraper. She likes to use
 
 <div id="kimiko-abe" style="page-break-before: always;">
   <h2>
-    KIMIKO ABE<br>
-    *貴美子 安倍*
+    KIMIKO ABE
+    <br>*貴美子 安倍*
     <br>*[KIM-i-koh]—[AH-bay]*
     <br>Preferred Name: Kim
   </h2>
@@ -889,8 +889,8 @@ Kimiko's attributes make her a formidable Pred in both physical and mental prowe
 
 <div id="mia-falk" style="page-break-before: always;">
   <h2>
-    MIA FALK<br>
-    **
+    MIA FALK
+    
     <br>*[MEE-ah]—[FALK]*
     <br>Preferred Name: Mia
   </h2>
@@ -922,8 +922,8 @@ Mia is a small, cute, petite, brunette girl. She is Vivian's younger sister
 
 <div id="sophia-samara" style="page-break-before: always;">
   <h2>
-    SOPHIA SAMARA<br>
-    *Σοφία Σαμαρά*
+    SOPHIA SAMARA
+    <br>*Σοφία Σαμαρά*
     <br>*[soh-FEE-ah]—[sah-mah-RAH]*
     <br>Preferred Name: Sophia
   </h2>
@@ -963,8 +963,8 @@ Her wealth, acquired through a combination of skill in hunting and shrewd busine
 
 <div id="sarah-briggs" style="page-break-before: always;">
   <h2>
-    SARAH BRIGGS<br>
-    **
+    SARAH BRIGGS
+    
     <br>*[SAY-rah]—[BRIGZ]*
     <br>Preferred Name: Sarah
   </h2>
@@ -1006,8 +1006,8 @@ Sarah exudes an aura of confidence and dominance, her sharp gaze and predatory i
 
 <div id="ciara-bán-róin" style="page-break-before: always;">
   <h2>
-    CIARA BÁN RÓIN<br>
-    **
+    CIARA BÁN RÓIN
+    
     <br>*[KEE-rah]—[BAN]—[ROH-in]*
     <br>Preferred Name: Ciara
   </h2>
@@ -1127,8 +1127,8 @@ The sea is both her refuge and her prison. She feels most alive when near the wa
 
 <div id="lars-herlings" style="page-break-before: always;">
   <h2>
-    LARS HERLINGS<br>
-    **
+    LARS HERLINGS
+    
     <br>*[LARZ]—[HER-lingz]*
     <br>Preferred Name: Lars
   </h2>
@@ -1163,8 +1163,8 @@ Abilities
 
 <div id="anișoara-muroni-căpățână" style="page-break-before: always;">
   <h2>
-    ANIȘOARA "MURONI" CĂPĂȚÂNĂ<br>
-    **
+    ANIȘOARA "MURONI" CĂPĂȚÂNĂ
+    
     <br>*[ah-ni-sho-AR-ah]—[moo-ROH-nee]—[kuh-puh-TSUU-nuh]*
     <br>Preferred Name: Ani
   </h2>
@@ -1198,8 +1198,8 @@ Anișoara Căpățână is the daughter of the Căpățână crime family, born 
 
 <div id="mischa-jäger" style="page-break-before: always;">
   <h2>
-    MISCHA JÄGER<br>
-    **
+    MISCHA JÄGER
+    
     <br>*[MEE-sha]—[YEH-ger]*
     <br>Preferred Name: Mischa
   </h2>
@@ -1231,8 +1231,8 @@ Mischa's appearance is very similar to "Aryan Perfection," which he despises bei
 
 <div id="aurora-văduva" style="page-break-before: always;">
   <h2>
-    AURORA VĂDUVA<br>
-    **
+    AURORA VĂDUVA
+    
     <br>*[oh-ROR-ah]—[vuh-DOO-vah]*
     <br>Preferred Name: Aurora
   </h2>

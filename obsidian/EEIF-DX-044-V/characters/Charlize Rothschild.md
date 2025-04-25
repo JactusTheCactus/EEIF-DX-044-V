@@ -1,8 +1,8 @@
 
 <div id="charlize-rothschild" style="page-break-before: always;">
   <h2>
-    CHARLIZE ROTHSCHILD<br>
-    **
+    CHARLIZE ROTHSCHILD
+    
     <br>*[shar-LEEZ]—[ROTE-shild]*
     <br>Preferred Name: Charlie
   </h2>

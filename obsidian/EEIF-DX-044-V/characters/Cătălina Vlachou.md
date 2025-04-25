@@ -1,8 +1,8 @@
 
 <div id="cătălina-vlachou" style="page-break-before: always;">
   <h2>
-    CĂTĂLINA VLACHOU<br>
-    **
+    CĂTĂLINA VLACHOU
+    
     <br>*[kuh-tuh-LEE-nah]—[vla-KOO]*
     <br>Preferred Name: Căt
   </h2>

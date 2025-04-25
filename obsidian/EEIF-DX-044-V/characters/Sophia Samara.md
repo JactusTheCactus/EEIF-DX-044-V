@@ -1,8 +1,8 @@
 
 <div id="sophia-samara" style="page-break-before: always;">
   <h2>
-    SOPHIA SAMARA<br>
-    *Σοφία Σαμαρά*
+    SOPHIA SAMARA
+    <br>*Σοφία Σαμαρά*
     <br>*[soh-FEE-ah]—[sah-mah-RAH]*
     <br>Preferred Name: Sophia
   </h2>

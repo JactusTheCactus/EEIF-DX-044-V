@@ -1,8 +1,8 @@
 
 <div id="allison-webb" style="page-break-before: always;">
   <h2>
-    ALLISON WEBB<br>
-    **
+    ALLISON WEBB
+    
     <br>*[A-li-sin]—[WEB]*
     <br>Preferred Name: Allie
   </h2>

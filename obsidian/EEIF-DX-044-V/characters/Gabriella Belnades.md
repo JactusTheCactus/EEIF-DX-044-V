@@ -1,8 +1,8 @@
 
 <div id="gabriella-belnades" style="page-break-before: always;">
   <h2>
-    GABRIELLA BELNADES<br>
-    **
+    GABRIELLA BELNADES
+    
     <br>*[GAH-bee]—[bell-NA-dhess]*
     <br>Preferred Name: Gabi
   </h2>

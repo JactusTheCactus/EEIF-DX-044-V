@@ -1,8 +1,8 @@
 
 <div id="sarah-briggs" style="page-break-before: always;">
   <h2>
-    SARAH BRIGGS<br>
-    **
+    SARAH BRIGGS
+    
     <br>*[SAY-rah]—[BRIGZ]*
     <br>Preferred Name: Sarah
   </h2>

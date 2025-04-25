@@ -1,8 +1,8 @@
 
 <div id="sadie-sharpe" style="page-break-before: always;">
   <h2>
-    SADIE SHARPE<br>
-    **
+    SADIE SHARPE
+    
     <br>*[SAY-dee]—[SHARP]*
     <br>Preferred Name: Sadie
   </h2>

@@ -1,8 +1,8 @@
 
 <div id="mariana-cross" style="page-break-before: always;">
   <h2>
-    MARIANA CROSS<br>
-    **
+    MARIANA CROSS
+    
     <br>*[MAH-ree-ah-nah]—[KROS]*
     <br>Preferred Name: Mari
   </h2>

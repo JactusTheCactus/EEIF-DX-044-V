@@ -1,8 +1,8 @@
 
 <div id="koralia-kontou" style="page-break-before: always;">
   <h2>
-    KORALIA KONTOU<br>
-    *Κοραλία Κοντού*
+    KORALIA KONTOU
+    <br>*Κοραλία Κοντού*
     <br>*[koh-rah-LEE-ah]—[koh-DOO]*
     <br>Preferred Name: Kori
   </h2>

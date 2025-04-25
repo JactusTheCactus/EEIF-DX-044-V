@@ -1,8 +1,8 @@
 
 <div id="melania-dunn" style="page-break-before: always;">
   <h2>
-    MELANIA DUNN<br>
-    **
+    MELANIA DUNN
+    
     <br>*[muh-LAH-nee-uh]—[DUN]*
     <br>Preferred Name: Mel
   </h2>

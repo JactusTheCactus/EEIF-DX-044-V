@@ -1,8 +1,8 @@
 
 <div id="kassandra-argyri" style="page-break-before: always;">
   <h2>
-    KASSANDRA ARGYRI<br>
-    *Κασσάνδρα Αργύρη*
+    KASSANDRA ARGYRI
+    <br>*Κασσάνδρα Αργύρη*
     <br>*[kah-SAN-dhrah]—[ar-GHEE-ree]*
     <br>Preferred Name: Kassi
   </h2>
