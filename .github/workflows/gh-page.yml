@@ -19,7 +19,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Github Pages
+          name: github-pages
           path: index.html
 
   deploy:
@@ -32,7 +32,7 @@ jobs:
       id-token: write
 
     environment:
-      name: Github Pages
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
