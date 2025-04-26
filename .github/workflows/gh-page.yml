@@ -1,27 +1,22 @@
 name: Publish GitHub Pages
-
 on:
   workflow_run:
     workflows: ["Run Script"]
     types:
       - completed
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Setup Pages
         uses: actions/configure-pages@v3
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: index.html
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -30,11 +25,9 @@ jobs:
       actions: write
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
