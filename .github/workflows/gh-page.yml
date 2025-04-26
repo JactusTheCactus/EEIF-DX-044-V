@@ -1,4 +1,4 @@
-name: Publish GitHub Pages
+name: Publish GitHub Pages (BROKEN)
 on:
   workflow_run:
     workflows: ["Run Script"]
