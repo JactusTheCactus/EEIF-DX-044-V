@@ -33,3 +33,8 @@ jobs:
           git commit -m "Auto-commit: update from script" || echo "No changes to commit"
           git pull --rebase || git rebase --abort  # Abort rebase if conflicts occur
           git push || echo "Push failed due to conflicts. Manual resolution required."
+          git switch gh-pages
+          git add index.html
+          git commit -m "Auto-commit: update from script" || echo "No changes to commit"
+          git pull --rebase || git rebase --abort  # Abort rebase if conflicts occur
+          git push || echo "Push failed due to conflicts. Manual resolution required."
