@@ -8,7 +8,7 @@ permissions:
   pages: write
   id-token: write
 jobs:
-  build-and-deploy:
+  prep:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,8 +23,16 @@ jobs:
           pip install -r requirements.txt
       - name: Install wkhtmltopdf
         run: sudo apt-get update && sudo apt-get install -y wkhtmltopdf
+  build:
+    needs: prep
+    runs-on: ubuntu-latest
+    steps:
       - name: Run script.py
         run: python script.py
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
