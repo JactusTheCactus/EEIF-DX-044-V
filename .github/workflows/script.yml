@@ -26,7 +26,6 @@ jobs:
       - name: Run script.py
         run: python script.py
       - name: Commit and push changes
-          #git config --global user.name "github-actions[bot]"
         run: |
           git config --global user.name "The GitHub Gremlin"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
