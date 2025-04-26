@@ -1,7 +1,27 @@
-- name: Deploy GitHub Pages site
-  on:
-    workflow_run:
-      workflows: ["Run Script"]
-      types:
-        - completed
-  uses: actions/deploy-pages@v4.0.5
+name: Deploy GitHub Pages
+
+on:
+  workflow_run:
+    workflows: ["Run Script"]
+    types:
+      - completed
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4.0.5
+        with:
+          folder: . # Assuming `index.html` is in the root of the repo
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
