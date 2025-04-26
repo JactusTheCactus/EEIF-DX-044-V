@@ -1,2 +1,7 @@
 - name: Deploy GitHub Pages site
+  on:
+    workflow_run:
+      workflows: ["Run Script"]
+      types:
+        - completed
   uses: actions/deploy-pages@v4.0.5
